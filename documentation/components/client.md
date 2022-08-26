@@ -2,10 +2,9 @@
 description: >-
   The Guilded Bot's client, where everything's happen and where the Guilded bot
   interacts with guilds/servers.
-layout: editorial
 ---
 
-# Client
+# 🤖 Client
 
 ### Properties
 

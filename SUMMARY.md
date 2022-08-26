@@ -10,6 +10,6 @@
 ## Documentation
 
 * [🏠 Home](documentation/home.md)
-* [Components](documentation/components/README.md)
-  * [Client](documentation/components/client.md)
-  * [Page 1](documentation/components/page-1.md)
+* [🪑 Components](documentation/components/README.md)
+  * [🤖 Client](documentation/components/client.md)
+  * [☕ Channel](documentation/components/channel.md)
