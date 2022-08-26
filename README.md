@@ -5,7 +5,7 @@ description: >-
   users.
 ---
 
-# Here's the guide for Guilder.
+# Here's the guide for TouchGuild.
 
 ## Get started, it's easy.
 
@@ -14,7 +14,7 @@ You'll need to download Node (npm), sorry yarn users but it's not for now.
 ### Install the package
 
 ```bash
-npm install guilder@latest --save-dev
+npm install touchguild@latest --save-dev
 ```
 
 ### Basic scripting (ping, pong!)
@@ -26,10 +26,10 @@ For example, we'll create a simple ping pong script, a well known command!
 Javascript & Typescript:
 
 ```javascript
-const Guilder = require('Guilder') // import for CommonJS
-import Guilder from 'Guilder' // import for ESM & TS
+const TouchGuild = require('Guilder') // import for CommonJS
+import TouchGuild from 'TouchGuild' // import for ESM & TS
 
-const Client = new Guilder.Client({token: 'insert token here'}) // create client
+const Client = new TouchGuild.Client({token: 'insert token here'}) // create client
 
 Client.connect();
 

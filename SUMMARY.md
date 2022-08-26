@@ -2,7 +2,7 @@
 
 ## 😄 Guide
 
-* [Here's the guide for Guilder.](README.md)
-  * [👾 Manage messages](guide/heres-the-guide-for-guilder./manage-messages.md)
-  * [# # Creating embeds](guide/heres-the-guide-for-guilder./creating-embeds.md)
-  * [🏓 Receiving events](guide/heres-the-guide-for-guilder./receiving-events.md)
+* [Here's the guide for TouchGuild.](README.md)
+  * [👾 Manage messages](guide/heres-the-guide-for-touchguild./manage-messages.md)
+  * [# # Creating embeds](guide/heres-the-guide-for-touchguild./creating-embeds.md)
+  * [🏓 Receiving events](guide/heres-the-guide-for-touchguild./receiving-events.md)
