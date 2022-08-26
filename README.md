@@ -1,6 +1,6 @@
 ---
 description: >-
-  Guilder types are inspired by Eris, a Discord library, but it was built
+  TouchGuild types are inspired by Eris, a Discord library, but it was built
   different. Types are easy, and predictable for new users and for Discord Eris
   users.
 ---
