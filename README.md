@@ -1,11 +1,11 @@
 ---
 description: >-
-  TouchGuild types are inspired by Eris, a Discord library, but it was built
+  Guilder types are inspired by Eris, a Discord library, but it was built
   different. Types are easy, and predictable for new users and for Discord Eris
   users.
 ---
 
-# 🌟 Get started
+# Here's the guide for Guilder.
 
 ## Get started, it's easy.
 
@@ -14,7 +14,7 @@ You'll need to download Node (npm), sorry yarn users but it's not for now.
 ### Install the package
 
 ```bash
-npm install touchguild@latest --save-dev
+npm install guilder@latest --save-dev
 ```
 
 ### Basic scripting (ping, pong!)
@@ -26,10 +26,10 @@ For example, we'll create a simple ping pong script, a well known command!
 Javascript & Typescript:
 
 ```javascript
-const TouchGuild = require('Guilder') // import for CommonJS
-import TouchGuild from 'TouchGuild' // import for ESM & TS
+const Guilder = require('Guilder') // import for CommonJS
+import Guilder from 'Guilder' // import for ESM & TS
 
-const Client = new TouchGuild.Client({token: 'insert token here'}) // create client
+const Client = new Guilder.Client({token: 'insert token here'}) // create client
 
 Client.connect();
 

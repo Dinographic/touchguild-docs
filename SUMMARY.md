@@ -10,3 +10,5 @@
 ## Documentation
 
 * [🏠 Home](documentation/home.md)
+* [Components](documentation/components/README.md)
+  * [Client](documentation/components/client.md)
