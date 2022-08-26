@@ -13,3 +13,4 @@
 * [🪑 Components](documentation/components/README.md)
   * [🤖 Client](documentation/components/client.md)
   * [☕ Channel](documentation/components/channel.md)
+  * [⌨ Message](documentation/components/message.md)

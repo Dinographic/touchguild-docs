@@ -19,7 +19,7 @@ description: >-
 | createdAt  | timestamp that the channel was created at                                                | String                                                 |
 | createdBy  | id of the user that created the channel                                                  | String                                                 |
 | updatedAt  | timestamp that the channel was updated at                                                | String                                                 |
-| serverId   | the id of the server                                                                     | String                                                 |
+| guildID    | the id of the server                                                                     | String                                                 |
 | parentId   | ID of the parent channel or parent thread, if present. Only relevant for server channels | String                                                 |
 | categoryId | id of the category the channel is in                                                     | String                                                 |
 | groupId    | id of the group the channel is in                                                        | String                                                 |
