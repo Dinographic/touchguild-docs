@@ -16,13 +16,72 @@ description: >-
 | cache       | The client's cache, used for storing things such as message contents          | Map       |
 | token       | The bot's inserted token.                                                     | String    |
 
-### Constructor
+## Constructor
 
 ```javascript
 new Client(params)
 ```
 
-| Properties   | Description                  | Type   |
-| ------------ | ---------------------------- | ------ |
-| params       | Client's parameters/options. | Object |
-| params.token | Bot's token                  | String |
+| Properties   | Description                  | Type   | Required? |
+| ------------ | ---------------------------- | ------ | --------- |
+| params       | Client's parameters/options. | Object | true      |
+| params.token | Bot's token                  | String | true      |
+
+## Methods
+
+{% hint style="info" %}
+Client have standard event emitter types, they're not listed there.
+{% endhint %}
+
+### connect()
+
+Connects your bot to the Guilded API.
+
+### getChannel(channelID)
+
+Get a specific channel's information.
+
+| Properties | Description                          | Type   |
+| ---------- | ------------------------------------ | ------ |
+| channelID  | id of the channel you'd like to get. | String |
+
+> Returns: <mark style="color:purple;">Channel</mark>
+
+
+
+### getMember(guildID, memberID)
+
+Get a specific guild's/server's member.
+
+| Properties | Description      | Type   |
+| ---------- | ---------------- | ------ |
+| guildID    | id of the server | String |
+| memberID   | id of the user   | String |
+
+> Returns: <mark style="color:purple;">Member</mark>
+
+### getGuild(guildID)
+
+Get a specific guild/server.
+
+| Properties | Description      | Type   |
+| ---------- | ---------------- | ------ |
+| guildID    | id of the server | String |
+
+> Returns: <mark style="color:purple;">Guild</mark>
+
+### createChannel(location, name, type, options)
+
+Create a channel within given location.
+
+| Properties          | Description                          | Type    | Required? |
+| ------------------- | ------------------------------------ | ------- | --------- |
+| location            | new channel's location               | Object  | true      |
+| location.guildID    | id of the server                     | String  | false     |
+| location.groupID    | id of the group                      | String  | false     |
+| location.categoryID | id of the category                   | String  | false     |
+| name                | new channel's name                   | String  | true      |
+| type                | new channel's type (example: 'chat') | String  | true      |
+| options             | new channel's options                | Object  | false     |
+| options.topic       | new channel's topic, description.    | String  | false     |
+| options.isPublic    | --                                   | Boolean | false     |
