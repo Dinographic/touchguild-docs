@@ -85,3 +85,42 @@ Create a channel within given location.
 | options             | new channel's options                | Object  | false     |
 | options.topic       | new channel's topic, description.    | String  | false     |
 | options.isPublic    | --                                   | Boolean | false     |
+
+> Returns: <mark style="color:purple;">Channel</mark>
+
+### createMessage(channelID, options)
+
+Create a message in a specific channel.
+
+| Properties              | Description                                                | Type           | Required? |
+| ----------------------- | ---------------------------------------------------------- | -------------- | --------- |
+| channelID               | channel's id                                               | String         | true      |
+| options                 | message's options                                          | Object         | true      |
+| options.content         | message content                                            | String         | false     |
+| options.embeds          | message's embeds                                           | Array\<Object> | false     |
+| options.replyMessageIds | list of message id to reply                                | Array\<String> | false     |
+| options.isSilent        | notify user(s)?                                            | Boolean        | false     |
+| options.isPrivate       | message will only be seen by those mentioned or replied to | Boolean        | false     |
+
+> Returns: <mark style="color:blue;">Promise</mark><<mark style="color:purple;">Message</mark>>
+
+### editMessage(channelID, messageID, newMessage)
+
+Update a specific message.
+
+| Properties         | Description           | Type           | Required? |
+| ------------------ | --------------------- | -------------- | --------- |
+| channelID          | channel's id          | String         | true      |
+| messageID          | target message id     | String         | true      |
+| newMessage         | new message's options | Object         | true      |
+| newMessage.content | new message content   | String         | false     |
+| newMessage.embeds  | new message's embeds  | Array\<Object> | false     |
+
+### deleteMessage(channelID, messageID)
+
+Delete a specific message.
+
+| Properties | Description       | Type   | Required? |
+| ---------- | ----------------- | ------ | --------- |
+| channelID  | channel's id      | String | true      |
+| messageID  | target message id | String | true      |
