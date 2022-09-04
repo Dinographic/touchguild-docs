@@ -4,7 +4,7 @@ description: >-
   single block.
 ---
 
-# # # Creating embeds
+# # Creating embeds
 
 ## Let's get started.
 
@@ -56,5 +56,5 @@ Example taken from Guilded API Docs.
 ### Now, let's send it.
 
 ```javascript
-Client.createMessage({embeds: [embed]})
+Client.createMessage('channelID', {embeds: [embed]})
 ```
