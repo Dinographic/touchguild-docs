@@ -1,11 +1,12 @@
 ---
 description: >-
-  TouchGuild types are inspired by Eris, a Discord library, but it was built
-  different. Types are easy, and predictable for new users and for Discord Eris
-  users.
+  TouchGuild is a library built to let you interface with the Guilded API. It
+  has easy & predictable types, some of them are inspired by Discord Eris.
 ---
 
 # 🌟 Get started
+
+<figure><img src=".gitbook/assets/touchguild-banner.png" alt=""><figcaption></figcaption></figure>
 
 ## Get started, it's easy.
 
@@ -26,15 +27,16 @@ For example, we'll create a simple ping pong script, a well known command!
 Javascript & Typescript:
 
 ```javascript
-const TouchGuild = require('Guilder') // import for CommonJS
-import TouchGuild from 'TouchGuild' // import for ESM & TS
+const TouchGuild = require('TouchGuild') // import for CommonJS
+// import TouchGuild from 'TouchGuild' // import for ESM & TS
 
 const Client = new TouchGuild.Client({token: 'insert token here'}) // create client
 
 Client.connect();
 
 Client.on('messageCreate', (message)=> {
-    // Detects when a message is created and execute the code here.
+    // Detects when a message is created and executes the code here.
+    if (message.member.bot == true) return; // ignores bot messages.
     if (message.content == '!ping'){
         // if the message command is !ping, it executes the code here.
         message.createMessage({content: 'pong!'}); // create a message.
