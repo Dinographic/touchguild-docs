@@ -182,6 +182,27 @@ Get a specific calendar event rsvp
 
 > Returns: <mark style="color:purple;">Promise\<CalendarRSVP></mark>
 
+### getRESTListItem(channelID, itemID)
+
+Get a specific item from a list channel.
+
+| Properties | Description                                | Type   |
+| ---------- | ------------------------------------------ | ------ |
+| channelID  | id of the channel containing the list item | String |
+| itemID     | id of the item                             | String |
+
+> Returns: <mark style="color:purple;">Promise\<ListItem></mark>
+
+### getRESTListItems(channelID)
+
+Get a list of ListItem from a list channel.
+
+| Properties | Description                                 | Type   |
+| ---------- | ------------------------------------------- | ------ |
+| channelID  | id of the channel containing the list items | String |
+
+> Returns: <mark style="color:purple;">Promise\<Array\<ListItem>></mark>
+
 ### getChannelMessages(channelID, filter?)
 
 Get a list of channel messages, only basic data included.
@@ -297,6 +318,41 @@ Be aware that the returned object/array is having Guilded API types and not ours
 {% hint style="info" %}
 Non-REST Methods can provide better response time than the REST ones when it treats multiple object of information.
 {% endhint %}
+
+### getListItems(channelID)
+
+List of item of the selected list channel, only basic data included.
+
+| Properties | Description                                      | Type   |
+| ---------- | ------------------------------------------------ | ------ |
+| channelID  | id of the list channel which contains the items. | String |
+
+> Returns: <mark style="color:purple;">Promise\<Array\<Object>></mark>
+
+{% hint style="warning" %}
+Non-REST Methods only returns an object/array, methods and cached information aren't provided.
+
+Be aware that the returned object/array is having Guilded API types and not ours.
+{% endhint %}
+
+{% hint style="info" %}
+Non-REST Methods can provide better response time than the REST ones when it treats multiple object of information.
+{% endhint %}
+
+### getMemberRoles(guildID, memberID)
+
+Gives you a list of every roles the member has.
+
+| Properties | Description             | Type   |
+| ---------- | ----------------------- | ------ |
+| guildID    | id of the server/guild  | String |
+| memberID   | id of the target member | String |
+
+{% hint style="success" %}
+getMemberRoles is the only proposed method to get member's roles, it is because there is nothing to treat, it's just an array of 'roles' which are numbers/int.
+{% endhint %}
+
+> Returns: <mark style="color:purple;">Promise\<Array\<Number>></mark>
 
 ### createChannel(location, name, type, options)
 
@@ -559,3 +615,101 @@ Delete a specific calendar event RSVP.
 | memberID   | rsvp target member id | String | true      |
 
 > Returns: <mark style="color:purple;">Promise\<void></mark>
+
+### createListItem(channelID, content, note?)
+
+Create an item within a list channel.
+
+| Properties   | Description                  | Type   | Required? |
+| ------------ | ---------------------------- | ------ | --------- |
+| channelID    | 'List' channel id.           | String | true      |
+| content      | content/message of the list  | String | true      |
+| note?        | Note object                  | Object | false     |
+| note.content | add a note/edit note content | String | true      |
+
+> Returns: <mark style="color:purple;">Promise\<ListItem></mark>
+
+### editListItem(channelID, itemID, content, note?)
+
+Edit a list item.
+
+| Properties   | Description                  | Type   | Required? |
+| ------------ | ---------------------------- | ------ | --------- |
+| channelID    | 'List' channel id.           | String | true      |
+| itemID       | ID of the target item.       | String | true      |
+| content      | content/message of the list  | String | true      |
+| note?        | Note object                  | Object | false     |
+| note.content | add a note/edit note content | String | true      |
+
+> Returns: <mark style="color:purple;">Promise\<ListItem></mark>
+
+### completeListItem(channelID, itemID)
+
+Complete (checkmark will show up) a specific item from a list channel.
+
+| Properties | Description            | Type   | Required? |
+| ---------- | ---------------------- | ------ | --------- |
+| channelID  | 'List' channel id.     | String | true      |
+| itemID     | ID of the target item. | String | true      |
+
+> Returns: <mark style="color:purple;">Promise\<void></mark>
+
+### uncompleteListItem(channelID, itemID)
+
+Uncomplete (checkmark will disappear) a specific item from a list channel.
+
+| Properties | Description            | Type   | Required? |
+| ---------- | ---------------------- | ------ | --------- |
+| channelID  | 'List' channel id.     | String | true      |
+| itemID     | ID of the target item. | String | true      |
+
+> Returns: <mark style="color:purple;">Promise\<void></mark>
+
+### addGuildMemberGroup(groupID, memberID)
+
+Add a Guild Member to a Guild group.
+
+| Properties | Description              | Type   | Required? |
+| ---------- | ------------------------ | ------ | --------- |
+| groupID    | Guild group id           | String | true      |
+| memberID   | ID of the target member. | String | true      |
+
+> Returns: <mark style="color:purple;">Promise\<void></mark>
+
+### removeGuildMemberGroup(groupID, memberID)
+
+Remove a Guild Member from a Guild group.
+
+| Properties | Description              | Type   | Required? |
+| ---------- | ------------------------ | ------ | --------- |
+| groupID    | Guild group id           | String | true      |
+| memberID   | ID of the target member. | String | true      |
+
+> Returns: <mark style="color:purple;">Promise\<void></mark>
+
+### addGuildMemberRole(guildID, memberID, roleID)
+
+Add a role to a guild member.
+
+| Properties | Description              | Type   | Required? |
+| ---------- | ------------------------ | ------ | --------- |
+| groupID    | Guild group id           | String | true      |
+| memberID   | ID of the target member. | String | true      |
+| roleID     | Role to add              | Number | true      |
+
+> Returns: <mark style="color:purple;">Promise\<void></mark>
+
+### removeGuildMemberRole(guildID, memberID, roleID)
+
+Remove a role from a guild member.
+
+| Properties | Description              | Type   | Required? |
+| ---------- | ------------------------ | ------ | --------- |
+| groupID    | Guild group id           | String | true      |
+| memberID   | ID of the target member. | String | true      |
+| roleID     | Role to add              | Number | true      |
+
+> Returns: <mark style="color:purple;">Promise\<void></mark>
+
+
+
