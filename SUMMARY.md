@@ -15,3 +15,4 @@
   * [☕ Channel](documentation/components/channel.md)
   * [⌨ Message](documentation/components/message.md)
   * [🏛 Guild](documentation/components/guild.md)
+  * [🙇♂ User](documentation/components/user.md)
