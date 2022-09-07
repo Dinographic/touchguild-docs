@@ -6,6 +6,28 @@ description: >-
 
 # 🌐 List of available events
 
+<details>
+
+<summary>Too lazy to scroll? Click me, haha!</summary>
+
+### [Message events](list-of-available-events.md#message)
+
+### [Channel events](list-of-available-events.md#channel)
+
+### [Forum Topic events](list-of-available-events.md#forum-topic)
+
+### [Guild events](list-of-available-events.md#guild)
+
+### [Docs events](list-of-available-events.md#docs)
+
+### [Calendar events](list-of-available-events.md#calendar)
+
+### [List events](list-of-available-events.md#list)
+
+### [Webhook events](list-of-available-events.md#webhook)
+
+</details>
+
 ## Message
 
 ### messageCreate
