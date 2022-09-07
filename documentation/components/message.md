@@ -23,10 +23,10 @@ description: >-
 | isPrivate             | is message private? true/false                                                                                      | Boolean                                                |
 | isSilent              | if the message doesn't notify a user                                                                                | Boolean                                                |
 | mentions              | Message mentions object                                                                                             | Object                                                 |
-| \_createdAt           | timestamp that the message was created at                                                                           | Number                                                 |
+| \_createdAt           | timestamp that the message was created at                                                                           | Date                                                   |
 | memberID              | id of the message author                                                                                            | String                                                 |
-| \_updatedAt           | timestamp that the message was updated at                                                                           | Number\|null                                           |
-| \_deletedAt           | Timestamp (unix epoch time) of the message's deletion.                                                              | Number\|null                                           |
+| \_updatedAt           | timestamp that the message was updated at                                                                           | Date\|null                                             |
+| \_deletedAt           | Timestamp (unix epoch time) of the message's deletion.                                                              | Date\|null                                             |
 | webhookID             | The ID of the webhook who created this message, if it was created by a webhook                                      | String                                                 |
 | replyMessageIds       | List of ids mentioned in the message                                                                                | Array                                                  |
 | \_lastMessageID       | last message sent with the message itself (cache)                                                                   | String                                                 |
