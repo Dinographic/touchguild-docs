@@ -20,7 +20,7 @@
 ## Constructor
 
 ```javascript
-new CalendarRSVP(rawData, client)
+new CalendarEventRSVP(rawData, client)
 ```
 
 | Properties | Description                                     | Type                | Required? |

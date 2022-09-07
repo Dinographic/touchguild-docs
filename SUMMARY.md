@@ -20,4 +20,5 @@
   * [☠ BannedMember](documentation/components/bannedmember.md)
   * [🗓 CalendarEvent](documentation/components/calendarevent.md)
   * [📆 CalendarEventRSVP](documentation/components/calendareventrsvp.md)
+  * [📆 ForumTopic](documentation/components/forumtopic.md)
   * [↗ ListItem](documentation/components/listitem.md)
