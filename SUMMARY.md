@@ -17,3 +17,4 @@
   * [🏛 Guild](documentation/components/guild.md)
   * [🙇♂ User](documentation/components/user.md)
   * [🫂 Member](documentation/components/member.md)
+  * [↗ ListItem](documentation/components/listitem.md)
