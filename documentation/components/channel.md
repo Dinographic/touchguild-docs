@@ -8,28 +8,24 @@ description: >-
 
 ### Properties
 
-| Property     | Description                                                                              | Type                                                   |
-| ------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| data         | Original channel data.                                                                   | Object                                                 |
-| client       | the client that receives the channel data                                                | <mark style="color:purple;"></mark>[Client](client.md) |
-| id           | id of the channel                                                                        | String                                                 |
-| type         | type of the channel                                                                      | String                                                 |
-| name         | the name of the channel                                                                  | String                                                 |
-| topic        | the topic/description of the channel                                                     | String                                                 |
-| \_createdAt  | timestamp that the channel was created at                                                | Number                                                 |
-| memberID     | id of the user that created the channel                                                  | String                                                 |
-| \_updatedAt  | timestamp that the channel was updated at                                                | Number\|null                                           |
-| guildID      | the id of the server                                                                     | String                                                 |
-| parentID     | ID of the parent channel or parent thread, if present. Only relevant for server channels | String                                                 |
-| categoryID   | id of the category the channel is in                                                     | String                                                 |
-| groupID      | id of the group the channel is in                                                        | String                                                 |
-| isPublic     | is the channel public?                                                                   | Boolean                                                |
-| archivedBy   | id of the user that archived the channel                                                 | String                                                 |
-| \_archivedAt | timestamp that the channel was archived at                                               | Number                                                 |
-| createdAt    | string representation of the \_createdAt timestamp.                                      | Number                                                 |
-| updatedAt    | string representation of the \_updatedAt timestamp.                                      | Number\|null                                           |
-| archivedAt   | string representation of the \_archivedAt timestamp.                                     | Number\|null                                           |
-|              |                                                                                          |                                                        |
+| Property   | Description                                                                              | Type                                                   |
+| ---------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| data       | Original channel data.                                                                   | Object                                                 |
+| client     | the client that receives the channel data                                                | <mark style="color:purple;"></mark>[Client](client.md) |
+| id         | id of the channel                                                                        | String                                                 |
+| type       | type of the channel                                                                      | String                                                 |
+| name       | the name of the channel                                                                  | String                                                 |
+| topic      | the topic/description of the channel                                                     | String                                                 |
+| createdAt  | timestamp that the channel was created at                                                | String                                                 |
+| createdBy  | id of the user that created the channel                                                  | String                                                 |
+| updatedAt  | timestamp that the channel was updated at                                                | String                                                 |
+| guildID    | the id of the server                                                                     | String                                                 |
+| parentId   | ID of the parent channel or parent thread, if present. Only relevant for server channels | String                                                 |
+| categoryId | id of the category the channel is in                                                     | String                                                 |
+| groupId    | id of the group the channel is in                                                        | String                                                 |
+| isPublic   | is the channel public?                                                                   | Boolean                                                |
+| archivedBy | id of the user that archived the channel                                                 | String                                                 |
+| archivedAt | timestamp that the channel was archived at                                               | String                                                 |
 
 ## Constructor
 
