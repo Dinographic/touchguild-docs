@@ -6,18 +6,28 @@ description: BannedMember is a component that extends the User component.
 
 ### Properties
 
-| Property      | Description                                 | Type              |
-| ------------- | ------------------------------------------- | ----------------- |
-| guildID       | ID of the Guild                             |                   |
-| ban           | ban information                             | Object            |
-| ban.reason    | reason of the ban                           | String            |
-| ban.createdAt | timestamp of when the user has been banned. | Number\|null      |
-| ban.createdBy | Banned Member ID.                           | String            |
-| user          | Banned member information.                  | Object            |
-| user.id       | Banned member id                            | String            |
-| user.type     | Banned member type                          | String            |
-| user.username | Banned member username                      | String            |
-| guild         | Guild/server component                      | [Guild](guild.md) |
+| Property                 | Description                 | Type                |
+| ------------------------ | --------------------------- | ------------------- |
+| data                     | raw data                    | Object              |
+| client                   | client                      | [Client](client.md) |
+| id                       |                             | String              |
+| guildID                  |                             | String              |
+| channelID                |                             | String              |
+| name                     |                             | String              |
+| description              |                             | String              |
+| location                 |                             | String              |
+| url                      |                             | String              |
+| color                    |                             | Number              |
+| rsvpLimit                |                             | Number              |
+| \_startsAt               |                             | Number\|null        |
+| duration                 | duration in ms of the event | Number              |
+| isPrivate                |                             | Boolean             |
+| mentions                 |                             | Object              |
+| \_createdAt              |                             | Number\|null        |
+| memberID                 |                             | String              |
+| cancellation             |                             | Object              |
+| cancellation.description |                             | String              |
+| cancellation.createdBy   |                             | String              |
 
 ## Constructor
 
