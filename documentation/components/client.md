@@ -203,6 +203,28 @@ Get a list of ListItem from a list channel.
 
 > Returns: <mark style="color:purple;">Promise\<Array\<ListItem>></mark>
 
+### getRESTGuildWebhook(guildID, webhookID)
+
+Get a guild webhook.
+
+| Properties | Description       | Type   |
+| ---------- | ----------------- | ------ |
+| guildID    | id of the guild   | String |
+| webhookID  | id of the webhook | String |
+
+> Returns: <mark style="color:purple;">Promise\<Webhook></mark>
+
+### getRESTChannelWebhooks(guildID, channelID)
+
+Get a list of webhook selected from a specific channel.
+
+| Properties | Description       | Type   |
+| ---------- | ----------------- | ------ |
+| guildID    | id of the guild   | String |
+| channelID  | id of the channel | String |
+
+> Returns: <mark style="color:purple;">Promise\<Array\<Webhook>></mark>
+
 ### getChannelMessages(channelID, filter?)
 
 Get a list of channel messages, only basic data included.
@@ -353,6 +375,27 @@ getMemberRoles is the only proposed method to get member's roles, it is because 
 {% endhint %}
 
 > Returns: <mark style="color:purple;">Promise\<Array\<Number>></mark>
+
+### getChannelWebhooks(guildID, channelID)
+
+Returns you a list of channel webhooks, only basic data included.
+
+| Properties | Description            | Type   |
+| ---------- | ---------------------- | ------ |
+| guildID    | id of the server/guild | String |
+| channelID  | id of the channel      | String |
+
+> Returns: <mark style="color:purple;">Promise\<Array\<Object>></mark>
+
+{% hint style="warning" %}
+Non-REST Methods only returns an object/array, methods and cached information aren't provided.
+
+Be aware that the returned object/array is having Guilded API types and not ours.
+{% endhint %}
+
+{% hint style="info" %}
+Non-REST Methods can provide better response time than the REST ones when it treats multiple object of information.
+{% endhint %}
 
 ### createChannel(location, name, type, options)
 
@@ -712,4 +755,14 @@ Remove a role from a guild member.
 > Returns: <mark style="color:purple;">Promise\<void></mark>
 
 
+
+### createGuildWebhook(guildID, channelID, name)
+
+| Properties | Description             | Type   | Required? |
+| ---------- | ----------------------- | ------ | --------- |
+| guildID    | id of the guild/server  | String | true      |
+| channelID  | id of the channel       | String | true      |
+| name       | name of the new webhook | String | true      |
+
+> Returns: <mark style="color:purple;">Promise\<Webhook></mark>
 
