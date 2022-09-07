@@ -17,6 +17,7 @@
   * [🏛 Guild](documentation/components/guild.md)
   * [🙇♂ User](documentation/components/user.md)
   * [🫂 Member](documentation/components/member.md)
-  * [🗓 CalendarEvent](documentation/components/calendarevent.md)
   * [☠ BannedMember](documentation/components/bannedmember.md)
+  * [🗓 CalendarEvent](documentation/components/calendarevent.md)
+  * [📆 CalendarEventRSVP](documentation/components/calendareventrsvp.md)
   * [↗ ListItem](documentation/components/listitem.md)

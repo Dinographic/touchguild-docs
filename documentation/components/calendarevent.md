@@ -1,5 +1,5 @@
 ---
-description: BannedMember is a component that extends the User component.
+description: Calendar Event is a specific event from a calendar channel, so obvious.
 ---
 
 # 🗓 CalendarEvent
