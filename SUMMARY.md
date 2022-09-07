@@ -21,4 +21,5 @@
   * [🗓 CalendarEvent](documentation/components/calendarevent.md)
   * [📆 CalendarEventRSVP](documentation/components/calendareventrsvp.md)
   * [📆 ForumTopic](documentation/components/forumtopic.md)
+  * [📄 Doc](documentation/components/doc.md)
   * [↗ ListItem](documentation/components/listitem.md)
