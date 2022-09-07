@@ -14,3 +14,4 @@
   * [🤖 Client](documentation/components/client.md)
   * [☕ Channel](documentation/components/channel.md)
   * [⌨ Message](documentation/components/message.md)
+  * [🏛 Guild](documentation/components/guild.md)
