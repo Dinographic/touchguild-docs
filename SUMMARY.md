@@ -18,4 +18,5 @@
   * [🙇♂ User](documentation/components/user.md)
   * [🫂 Member](documentation/components/member.md)
   * [☠ BannedMember](documentation/components/bannedmember.md)
+  * [☠ Copy of BannedMember](documentation/components/copy-of-bannedmember.md)
   * [↗ ListItem](documentation/components/listitem.md)
