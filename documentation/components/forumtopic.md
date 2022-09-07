@@ -4,7 +4,7 @@ description: Component coming from a 'Forum' channel.
 
 # 📆 ForumTopic
 
-### Properties
+## Properties
 
 | Property         | Description                                                                | Type         |
 | ---------------- | -------------------------------------------------------------------------- | ------------ |

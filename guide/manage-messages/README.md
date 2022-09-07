@@ -12,7 +12,7 @@ description: >-
 // You have different ways to send messages, they're simple!
 
 // Create message within client, which requires the channel id.
-Client.createMessage('insert channel id here', {content: "heyo!"})
+var message = await Client.createMessage('insert channel id here', {content: "heyo!"});
 
 // Create message within message which doesn't require the channel id.
 // It is used to reply to a message

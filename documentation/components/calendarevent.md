@@ -4,7 +4,7 @@ description: Calendar Event is a specific event from a calendar channel, so obvi
 
 # 🗓 CalendarEvent
 
-### Properties
+## Properties
 
 | Property                | Description                                         | Type                |
 | ----------------------- | --------------------------------------------------- | ------------------- |

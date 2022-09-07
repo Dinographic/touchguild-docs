@@ -3,7 +3,9 @@
 ## 😄 Guide
 
 * [🌟 Get started](README.md)
-* [👾 Manage messages](guide/heres-the-guide-for-guilder./manage-messages.md)
+* [👾 Manage messages](guide/manage-messages/README.md)
+  * [Event and messages](guide/manage-messages/event-and-messages.md)
+  * [🧑🎓 Useful knowledge about messages.](guide/manage-messages/useful-knowledge-about-messages..md)
 * [# Creating embeds](guide/heres-the-guide-for-guilder./creating-embeds.md)
 * [🏓 Receiving events](guide/heres-the-guide-for-guilder./receiving-events.md)
 
