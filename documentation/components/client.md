@@ -6,7 +6,7 @@ description: >-
 
 # 🤖 Client
 
-## Properties
+### Properties
 
 | Property    | Description                                                                   | Type      |
 | ----------- | ----------------------------------------------------------------------------- | --------- |

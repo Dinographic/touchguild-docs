@@ -23,3 +23,4 @@
   * [📆 ForumTopic](documentation/components/forumtopic.md)
   * [📄 Doc](documentation/components/doc.md)
   * [↗ ListItem](documentation/components/listitem.md)
+* [🌐 List of available events](documentation/list-of-available-events.md)

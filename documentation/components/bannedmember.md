@@ -4,7 +4,7 @@ description: BannedMember is a component that extends the User component.
 
 # ☠ BannedMember
 
-## Properties
+### Properties
 
 | Property      | Description                                 | Type              |
 | ------------- | ------------------------------------------- | ----------------- |

@@ -6,7 +6,7 @@ description: >-
 
 # 🙇♂ User
 
-## Properties
+### Properties
 
 | Property    | Description                                         | Type                |
 | ----------- | --------------------------------------------------- | ------------------- |

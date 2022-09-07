@@ -6,7 +6,7 @@ description: >-
 
 # 🏛 Guild
 
-## Properties
+### Properties
 
 | Property         | Description                                         | Type   |
 | ---------------- | --------------------------------------------------- | ------ |

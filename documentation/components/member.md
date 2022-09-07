@@ -6,7 +6,7 @@ description: >-
 
 # 🫂 Member
 
-## Properties
+### Properties
 
 | Property   | Description                                        | Type              |
 | ---------- | -------------------------------------------------- | ----------------- |

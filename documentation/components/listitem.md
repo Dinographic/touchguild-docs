@@ -4,7 +4,7 @@ description: ListItem is a 'list channel' component. It has his own properties a
 
 # ↗ ListItem
 
-## Properties
+Properties
 
 | Property         | Description                                                                                             | Type                      |
 | ---------------- | ------------------------------------------------------------------------------------------------------- | ------------------------- |
