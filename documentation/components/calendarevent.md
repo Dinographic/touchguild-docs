@@ -29,7 +29,7 @@ description: BannedMember is a component that extends the User component.
 | cancelation.description | cancelation description                             | String              |
 | cancelation.createdBy   | id of the member who canceled the event.            | String              |
 | member                  | Member that created the event.                      | [Member](member.md) |
-| createdAt               | string representation of the \_createdAt timestamp. |                     |
+| createdAt               | string representation of the \_createdAt timestamp. | Date                |
 
 ## Constructor
 
