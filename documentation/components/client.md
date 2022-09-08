@@ -758,6 +758,8 @@ Remove a role from a guild member.
 
 ### createGuildWebhook(guildID, channelID, name)
 
+Create a new guild channel webhook.
+
 | Properties | Description             | Type   | Required? |
 | ---------- | ----------------------- | ------ | --------- |
 | guildID    | id of the guild/server  | String | true      |
@@ -766,3 +768,27 @@ Remove a role from a guild member.
 
 > Returns: <mark style="color:purple;">Promise\<Webhook></mark>
 
+### editGuildWebhook(guildID, webhookID, options)
+
+Edit a guild webhook.
+
+| Properties         | Description                    | Type   | Required? |
+| ------------------ | ------------------------------ | ------ | --------- |
+| guildID            | id of the guild/server         | String | true      |
+| webhookID          | id of the webhook              | String | true      |
+| options            | edit options                   | Object | true      |
+| options.name       | new webhook's name             | String | true      |
+| options.channelID? | new webhook's channel location | String | false     |
+
+> Returns: <mark style="color:purple;">Promise\<Webhook></mark>
+
+### deleteGuildWebhook(guildID, webhookID)
+
+Delete a guild webhok.
+
+| Properties | Description              | Type   | Required? |
+| ---------- | ------------------------ | ------ | --------- |
+| guildID    | id of the guild/server   | String | true      |
+| webhookID  | id of the target webhook | String | true      |
+
+> Returns: <mark style="color:purple;">Promise\<void></mark>
