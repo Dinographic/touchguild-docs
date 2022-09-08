@@ -46,7 +46,7 @@ Get a specific channel's information.
 | ---------- | ------------------------------------ | ------ |
 | channelID  | id of the channel you'd like to get. | String |
 
-> Returns: <mark style="color:purple;">Promise\<Channel></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Channel</mark>](channel.md)<mark style="color:purple;">></mark>
 
 
 
@@ -59,7 +59,7 @@ Get a specific guild's/server's member.
 | guildID    | id of the server | String |
 | memberID   | id of the user   | String |
 
-> Returns: <mark style="color:purple;">Promise\<Member></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Member</mark>](member.md)<mark style="color:purple;">></mark>
 
 ### getRESTGuild(guildID)
 
@@ -69,7 +69,7 @@ Get a specific guild/server.
 | ---------- | ---------------- | ------ |
 | guildID    | id of the server | String |
 
-> Returns: <mark style="color:purple;">Promise\<Guild></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Guild</mark>](guild.md)<mark style="color:purple;">></mark>
 
 ### getRESTChannelMessages(channelID, filter?)
 
@@ -97,7 +97,7 @@ Get a list of channel Doc component.
 | filter.before? | Date-time string             | String |
 | filter.limit?  | Limit the channel doc output | Number |
 
-> Returns: <mark style="color:purple;">Promise\<Array\<Doc>></mark>
+> Returns: <mark style="color:purple;">Promise\<Array<</mark>[<mark style="color:purple;">Doc</mark>](doc.md)<mark style="color:purple;">>></mark>
 
 ### getRESTChannelDoc(channelID, docID)
 
@@ -108,7 +108,7 @@ Get a specific channel doc.
 | channelID  | id of the channel | String |
 | docID      | id of the doc     | Number |
 
-> Returns: <mark style="color:purple;">Promise\<Doc></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Doc</mark>](doc.md)<mark style="color:purple;">></mark>
 
 ### getRESTForumTopics(channelID, filter?)
 
@@ -121,7 +121,7 @@ Get a list of ForumTopic component.
 | filter.before? | Date-time string             | String |
 | filter.limit?  | Limit the forum topic output | Number |
 
-> Returns: <mark style="color:purple;">Promise\<Array\<ForumTopic>></mark>
+> Returns: <mark style="color:purple;">Promise\<Array<</mark>[<mark style="color:purple;">ForumTopic</mark>](forumtopic.md)<mark style="color:purple;">>></mark>
 
 ### getRESTForumTopic(channelID, topicID)
 
@@ -132,7 +132,7 @@ Get a specific ForumTopic component
 | channelID  | id of the channel | String |
 | topicID    | id of the topic   | Number |
 
-> Returns: <mark style="color:purple;">Promise\<ForumTopic></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">ForumTopic</mark>](forumtopic.md)<mark style="color:purple;">></mark>
 
 ### getRESTCalendarEvents(channelID, filter?)
 
@@ -146,7 +146,7 @@ Get a list of CalendarEvent component
 | filter.after?  | Date-time string                | String |
 | filter.limit?  | Limit the calendar event output | Number |
 
-> Returns: <mark style="color:purple;">Promise\<Array\<CalendarEvent>></mark>
+> Returns: <mark style="color:purple;">Promise\<Array<</mark>[<mark style="color:purple;">CalendarEvent</mark>](calendarevent.md)<mark style="color:purple;">>></mark>
 
 ### getRESTCalendarEvent(channelID, eventID)
 
@@ -157,7 +157,7 @@ Get a specific calendar event component
 | channelID  | id of the channel containing the event | String |
 | eventID    | id of the event                        | Number |
 
-> Returns: <mark style="color:purple;">Promise\<CalendarEvent></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEvent</mark>](calendarevent.md)<mark style="color:purple;">></mark>
 
 ### getRESTCalendarRsvps(channelID, eventID)
 
@@ -168,7 +168,7 @@ Get a list of calendar event rsvp
 | channelID  | id of the channel containing the event | String |
 | eventID    | id of the event                        | Number |
 
-> Returns: <mark style="color:purple;">Promise\<Array\<CalendarRSVP>></mark>
+> Returns: <mark style="color:purple;">Promise\<Array<</mark>[<mark style="color:purple;">CalendarEventRSVP</mark>](calendareventrsvp.md)<mark style="color:purple;">>></mark>
 
 ### getRESTCalendarRsvp(channelID, eventID, memberID)
 
@@ -180,7 +180,7 @@ Get a specific calendar event rsvp
 | eventID    | id of the event                        | Number |
 | memberID   | id of the member                       | String |
 
-> Returns: <mark style="color:purple;">Promise\<CalendarRSVP></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEventRSVP</mark>](calendareventrsvp.md)<mark style="color:purple;">></mark>
 
 ### getRESTListItem(channelID, itemID)
 
@@ -191,7 +191,7 @@ Get a specific item from a list channel.
 | channelID  | id of the channel containing the list item | String |
 | itemID     | id of the item                             | String |
 
-> Returns: <mark style="color:purple;">Promise\<ListItem></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">ListItem</mark>](listitem.md)<mark style="color:purple;">></mark>
 
 ### getRESTListItems(channelID)
 
@@ -201,7 +201,7 @@ Get a list of ListItem from a list channel.
 | ---------- | ------------------------------------------- | ------ |
 | channelID  | id of the channel containing the list items | String |
 
-> Returns: <mark style="color:purple;">Promise\<Array\<ListItem>></mark>
+> Returns: <mark style="color:purple;">Promise\<Array<</mark>[<mark style="color:purple;">ListItem</mark>](listitem.md)<mark style="color:purple;">>></mark>
 
 ### getRESTGuildWebhook(guildID, webhookID)
 
@@ -212,7 +212,7 @@ Get a guild webhook.
 | guildID    | id of the guild   | String |
 | webhookID  | id of the webhook | String |
 
-> Returns: <mark style="color:purple;">Promise\<Webhook></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Webhook</mark>](webhook.md)<mark style="color:purple;">></mark>
 
 ### getRESTChannelWebhooks(guildID, channelID)
 
@@ -223,7 +223,7 @@ Get a list of webhook selected from a specific channel.
 | guildID    | id of the guild   | String |
 | channelID  | id of the channel | String |
 
-> Returns: <mark style="color:purple;">Promise\<Array\<Webhook>></mark>
+> Returns: <mark style="color:purple;">Promise\<Array<</mark>[<mark style="color:purple;">Webhook</mark>](webhook.md)<mark style="color:purple;">>></mark>
 
 ### getChannelMessages(channelID, filter?)
 
@@ -504,7 +504,7 @@ Edit a specific forum topic
 | options.title?   | topic title      | String | false     |
 | options.content? | topic content    | String | false     |
 
-> Returns: <mark style="color:purple;">Promise\<ForumTopic></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">ForumTopic</mark>](forumtopic.md)<mark style="color:purple;">></mark>
 
 ### deleteTopic(channelID, topicID)
 
@@ -550,7 +550,7 @@ Create a doc in a docs channel.
 | options.title   | doc title      | String | true      |
 | options.content | doc content    | String | true      |
 
-> Returns: <mark style="color:purple;">Promise\<Doc></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Doc</mark>](doc.md)<mark style="color:purple;">></mark>
 
 ### editDoc(channelID, docID, options)
 
@@ -564,7 +564,7 @@ Edit a specific doc.
 | options.title?   | doc title      | String | false     |
 | options.content? | doc content    | String | false     |
 
-> Returns: <mark style="color:purple;">Promise\<Doc></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Doc</mark>](doc.md)<mark style="color:purple;">></mark>
 
 ### deleteDoc(channelID)
 
@@ -597,7 +597,7 @@ Create a calendar event.
 
 
 
-> Returns: <mark style="color:purple;">Promise\<CalendarEvent></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEvent</mark>](calendarevent.md)<mark style="color:purple;">></mark>
 
 ### editCalendarEvent(channelID, eventID, options)
 
@@ -618,7 +618,7 @@ Edit a specific calendar event.
 | options.duration?    | event duration in ms            | Number  | false     |
 | options.isPrivate?   | --                              | Boolean | false     |
 
-> Returns: <mark style="color:purple;">Promise\<CalendarEvent></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEvent</mark>](calendarevent.md)<mark style="color:purple;">></mark>
 
 ### deleteCalendarEvent(channelID, eventID)
 
@@ -645,7 +645,7 @@ Add/edit a specific calendar event RSVP.
 
 
 
-> Returns: <mark style="color:purple;">Promise\<CalendarRSVP></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEventRSVP</mark>](calendareventrsvp.md)<mark style="color:purple;">></mark>
 
 ### deleteCalendarRsvp(channelID, eventID, memberID)
 
@@ -670,7 +670,7 @@ Create an item within a list channel.
 | note?        | Note object                  | Object | false     |
 | note.content | add a note/edit note content | String | true      |
 
-> Returns: <mark style="color:purple;">Promise\<ListItem></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">ListItem</mark>](listitem.md)<mark style="color:purple;">></mark>
 
 ### editListItem(channelID, itemID, content, note?)
 
@@ -684,7 +684,7 @@ Edit a list item.
 | note?        | Note object                  | Object | false     |
 | note.content | add a note/edit note content | String | true      |
 
-> Returns: <mark style="color:purple;">Promise\<ListItem></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">ListItem</mark>](listitem.md)<mark style="color:purple;">></mark>
 
 ### completeListItem(channelID, itemID)
 
@@ -766,7 +766,7 @@ Create a new guild channel webhook.
 | channelID  | id of the channel       | String | true      |
 | name       | name of the new webhook | String | true      |
 
-> Returns: <mark style="color:purple;">Promise\<Webhook></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Webhook</mark>](webhook.md)<mark style="color:purple;">></mark>
 
 ### editGuildWebhook(guildID, webhookID, options)
 
@@ -780,7 +780,7 @@ Edit a guild webhook.
 | options.name       | new webhook's name             | String | true      |
 | options.channelID? | new webhook's channel location | String | false     |
 
-> Returns: <mark style="color:purple;">Promise\<Webhook></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Webhook</mark>](webhook.md)<mark style="color:purple;">></mark>
 
 ### deleteGuildWebhook(guildID, webhookID)
 

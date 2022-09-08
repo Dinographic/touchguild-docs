@@ -4,7 +4,7 @@ description: Our vision, perspective about the TouchGuild library.
 
 # 👀 Our vision
 
-## A library made by you, for you.
+## A library built by you, for you.
 
 ### Pull requests
 
@@ -22,3 +22,18 @@ You can also report bugs, they can be very important. By reporting you're enabli
 
 ## TouchGuild Library Branding
 
+### We introduce you the TouchGuild icons
+
+<figure><img src="../.gitbook/assets/touchguild-icon.png" alt="TouchGuild Icon (mini)"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/touchguild-fullicon.png" alt="TouchGuild full icon, made to be pleasant to look at."><figcaption></figcaption></figure>
+
+## Innovation works when secrets are revealed.
+
+### How the library works, how it treats Guilded API calls?
+
+The library is receiving Guilded API calls through a WebSocket (WSManager.ts), this WebSocket is invoked when you use the 'connect()' method from [Client](../documentation/components/client.md). The Guilded API messages which are 'packets' and are converted to JSON then sent and received in the [Client](../documentation/components/client.md), the message is filtered and redirected to a message handler that treats and emit the component.
+
+Every components are constructors, they delivers you the necessary methods, properties, and even cached properties, that helps you to be more productive.
+
+We note that the library is licensed under[ Apache-2.0 license](https://github.com/DinographicPixels/TouchGuild/blob/main/LICENSE) .
