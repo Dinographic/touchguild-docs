@@ -11,7 +11,7 @@ description: It is important to receive events, such as 'on message create, dele
 We'll detect when a message is created then reply to this message.
 
 ```javascript
-client.on('messageCreate', (message)=> {
+Client.on('messageCreate', (message)=> {
     message.createMessage({content: "just got ya message"});
 })
 ```
@@ -21,7 +21,7 @@ client.on('messageCreate', (message)=> {
 Simple, it'll detect when a message is edited, and so on..
 
 ```javascript
-client.on('messageUpdate', (message)=> {
+Client.on('messageUpdate', (message)=> {
     message.createMessage({content: "a message has been edited"});
 })
 ```
