@@ -29,6 +29,7 @@ description: >-
 | createdAt    | string representation of the \_createdAt timestamp.                                      | Date                                                   |
 | updatedAt    | string representation of the \_updatedAt timestamp.                                      | Date\|null                                             |
 | archivedAt   | string representation of the \_archivedAt timestamp.                                     | Date\|null                                             |
+|              |                                                                                          |                                                        |
 
 ## Constructor
 

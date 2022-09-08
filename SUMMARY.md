@@ -28,3 +28,8 @@
   * [💭 Webhook](documentation/components/webhook.md)
 * [🌐 List of available events](documentation/list-of-available-events.md)
 * [Types](documentation/types.md)
+
+## Misc
+
+* [😅 FAQ](misc/faq.md)
+* [👀 Our vision](misc/our-vision.md)

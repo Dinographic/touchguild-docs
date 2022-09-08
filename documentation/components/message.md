@@ -4,7 +4,7 @@ description: >-
   change in the future by moving some data into an extension of 'Message'.
 ---
 
-# 💬 Message
+# ⌨ Message
 
 ## Properties
 
@@ -15,7 +15,7 @@ description: >-
 | id                    | id of the message                                                                                                   | String                                                 |
 | type                  | type of message ('user' or 'system')                                                                                | String                                                 |
 | channel               | channel where the message has been sent                                                                             | [Channel](channel.md)                                  |
-| member                | message author                                                                                                      | [Member](member.md)                                    |
+| member                | message author                                                                                                      | Member  ----- to LINK                                  |
 | guildID               | id of the message's server                                                                                          | String                                                 |
 | channelID             | id of the message's channel                                                                                         | String                                                 |
 | content               | message content                                                                                                     | String                                                 |

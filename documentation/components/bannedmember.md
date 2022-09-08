@@ -8,7 +8,7 @@ description: BannedMember is a component that extends the User component.
 
 | Property      | Description                                 | Type              |
 | ------------- | ------------------------------------------- | ----------------- |
-| guildID       | ID of the Guild                             | String            |
+| guildID       | ID of the Guild                             |                   |
 | ban           | ban information                             | Object            |
 | ban.reason    | reason of the ban                           | String            |
 | ban.createdAt | timestamp of when the user has been banned. | Number\|null      |
