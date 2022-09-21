@@ -8,38 +8,38 @@ description: >-
 
 ## Properties
 
-| Property              | Description                                                                                                         | Type                                                   |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| \_data                | Original message data.                                                                                              | Object                                                 |
-| \_client              | the client that receives the channel data                                                                           | <mark style="color:purple;"></mark>[Client](client.md) |
-| id                    | id of the message                                                                                                   | String                                                 |
-| type                  | type of message ('user' or 'system')                                                                                | String                                                 |
-| channel               | channel where the message has been sent                                                                             | [Channel](channel.md)                                  |
-| member                | message author                                                                                                      | [Member](member.md)                                    |
-| guildID               | id of the message's server                                                                                          | String                                                 |
-| channelID             | id of the message's channel                                                                                         | String                                                 |
-| content               | message content                                                                                                     | String                                                 |
-| embeds                | message's embed(s)                                                                                                  | Array\<Object>                                         |
-| isPrivate             | is message private? true/false                                                                                      | Boolean                                                |
-| isSilent              | if the message doesn't notify a user                                                                                | Boolean                                                |
-| mentions              | Message mentions object                                                                                             | Object                                                 |
-| \_createdAt           | timestamp that the message was created at                                                                           | Number                                                 |
-| memberID              | id of the message author                                                                                            | String                                                 |
-| \_updatedAt           | timestamp that the message was updated at                                                                           | Number\|null                                           |
-| \_deletedAt           | Timestamp (unix epoch time) of the message's deletion.                                                              | Number\|null                                           |
-| webhookID             | The ID of the webhook who created this message, if it was created by a webhook                                      | String                                                 |
-| replyMessageIds       | List of ids mentioned in the message                                                                                | Array                                                  |
-| \_lastMessageID       | last message sent with the message itself (cache)                                                                   | String                                                 |
-| \_originalMessageID   | Original message, used to reply this one (cache)                                                                    | String                                                 |
-| \_originalMessageBool | Used by the system to detect if the original message id has been transfered                                         | Boolean                                                |
-|                       |                                                                                                                     |                                                        |
-| oldContent            | old message content if edited                                                                                       | String                                                 |
-| createdAt             | string representation of the \_createdAt timestamp.                                                                 | Date                                                   |
-| updatedAt             | string representation of the \_updatedAt timestamp.                                                                 | Date\|void                                             |
-| deletedAt             | string representation of the \_deletedAt timestamp.                                                                 | Date\|void                                             |
-| member                | Get the member component, which returns Member when message guildID and memberID is defined or if Member is cached. | Member\|undefined                                      |
-| guild                 | Guild component where the message has been sent                                                                     | Guild                                                  |
-| channel               | Channel component where the message has been sent on                                                                | [Channel](channel.md)                                  |
+| Property              | Description                                                                                                         | Type                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| \_data                | Original message data.                                                                                              | Object                                                                               |
+| \_client              | the client that receives the channel data                                                                           | <mark style="color:purple;"></mark>[Client](client.md)                               |
+| id                    | id of the message                                                                                                   | String                                                                               |
+| type                  | type of message ('user' or 'system')                                                                                | String                                                                               |
+| channel               | channel where the message has been sent                                                                             | [Channel](channel.md)                                                                |
+| member                | message author                                                                                                      | [Member](member.md)                                                                  |
+| guildID               | id of the message's server                                                                                          | String                                                                               |
+| channelID             | id of the message's channel                                                                                         | String                                                                               |
+| content               | message content                                                                                                     | String                                                                               |
+| embeds                | message's embed(s)                                                                                                  | Array\<Object>                                                                       |
+| isPrivate             | is message private? true/false                                                                                      | Boolean                                                                              |
+| isSilent              | if the message doesn't notify a user                                                                                | Boolean                                                                              |
+| mentions              | Message mentions object                                                                                             | Object ([<mark style="color:purple;">MentionsType</mark>](../types/mentionstype.md)) |
+| \_createdAt           | timestamp that the message was created at                                                                           | Number                                                                               |
+| memberID              | id of the message author                                                                                            | String                                                                               |
+| \_updatedAt           | timestamp that the message was updated at                                                                           | Number\|null                                                                         |
+| \_deletedAt           | Timestamp (unix epoch time) of the message's deletion.                                                              | Number\|null                                                                         |
+| webhookID             | The ID of the webhook who created this message, if it was created by a webhook                                      | String                                                                               |
+| replyMessageIds       | List of ids mentioned in the message                                                                                | Array                                                                                |
+| \_lastMessageID       | last message sent with the message itself (cache)                                                                   | String                                                                               |
+| \_originalMessageID   | Original message, used to reply this one (cache)                                                                    | String                                                                               |
+| \_originalMessageBool | Used by the system to detect if the original message id has been transfered                                         | Boolean                                                                              |
+|                       |                                                                                                                     |                                                                                      |
+| oldContent            | old message content if edited                                                                                       | String                                                                               |
+| createdAt             | string representation of the \_createdAt timestamp.                                                                 | Date                                                                                 |
+| updatedAt             | string representation of the \_updatedAt timestamp.                                                                 | Date\|void                                                                           |
+| deletedAt             | string representation of the \_deletedAt timestamp.                                                                 | Date\|void                                                                           |
+| member                | Get the member component, which returns Member when message guildID and memberID is defined or if Member is cached. | Member\|undefined                                                                    |
+| guild                 | Guild component where the message has been sent                                                                     | Guild                                                                                |
+| channel               | Channel component where the message has been sent on                                                                | [Channel](channel.md)                                                                |
 
 ## Constructor
 

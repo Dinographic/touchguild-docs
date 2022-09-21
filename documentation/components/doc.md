@@ -6,24 +6,24 @@ description: Doc is component coming from a 'docs' channel.
 
 ## Properties
 
-| Property    | Description                                                           | Type                |
-| ----------- | --------------------------------------------------------------------- | ------------------- |
-| data        | Raw data                                                              | Object              |
-| client      | Client                                                                | [Client](client.md) |
-| id          | ID of the doc                                                         | Number              |
-| guildID     | Guild/server id                                                       | String              |
-| channelID   | ID of the 'docs' channel.                                             | String              |
-| title       | Doc title/name                                                        | String              |
-| name        | Doc title/name                                                        | String              |
-| content     | Content of the doc                                                    | String              |
-| mentions    | Doc mentions                                                          | Object              |
-| \_createdAt | Timestamp (unix epoch time) of the doc's creation.                    | Number\|null        |
-| memberID    | ID of the member who created the doc.                                 | String              |
-| \_updatedAt | Timestamp (unix epoch time) of when the doc was updated. (if updated) | Number\|null        |
-| updatedBy   | ID of the member who updated the doc. (if updated)                    | String              |
-| member      | Member that made emit the event.                                      | [Member](member.md) |
-| createdAt   | String representation of the \_createdAt timestamp.                   | Date\|null          |
-| updatedAt   | String representation of the \_updatedAt timestamp.                   | Date\|null          |
+| Property    | Description                                                           | Type                                                                                 |
+| ----------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| data        | Raw data                                                              | Object                                                                               |
+| client      | Client                                                                | [Client](client.md)                                                                  |
+| id          | ID of the doc                                                         | Number                                                                               |
+| guildID     | Guild/server id                                                       | String                                                                               |
+| channelID   | ID of the 'docs' channel.                                             | String                                                                               |
+| title       | Doc title/name                                                        | String                                                                               |
+| name        | Doc title/name                                                        | String                                                                               |
+| content     | Content of the doc                                                    | String                                                                               |
+| mentions    | Doc mentions                                                          | Object ([<mark style="color:purple;">MentionsType</mark>](../types/mentionstype.md)) |
+| \_createdAt | Timestamp (unix epoch time) of the doc's creation.                    | Number\|null                                                                         |
+| memberID    | ID of the member who created the doc.                                 | String                                                                               |
+| \_updatedAt | Timestamp (unix epoch time) of when the doc was updated. (if updated) | Number\|null                                                                         |
+| updatedBy   | ID of the member who updated the doc. (if updated)                    | String                                                                               |
+| member      | Member that made emit the event.                                      | [Member](member.md)                                                                  |
+| createdAt   | String representation of the \_createdAt timestamp.                   | Date\|null                                                                           |
+| updatedAt   | String representation of the \_updatedAt timestamp.                   | Date\|null                                                                           |
 
 ## Constructor
 

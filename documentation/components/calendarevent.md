@@ -6,30 +6,30 @@ description: Calendar Event is a specific event from a calendar channel, so obvi
 
 ## Properties
 
-| Property                | Description                                         | Type                |
-| ----------------------- | --------------------------------------------------- | ------------------- |
-| data                    | raw data                                            | Object              |
-| client                  | client                                              | [Client](client.md) |
-| id                      | event id                                            | String              |
-| guildID                 | guild id                                            | String              |
-| channelID               | id of the channel                                   | String              |
-| name                    | event name                                          | String              |
-| description             | event description                                   | String              |
-| location                | event location set by member                        | String              |
-| url                     | event url set by member                             | String              |
-| color                   | event color                                         | Number              |
-| rsvpLimit               | attendant/entry limit                               | Number              |
-| \_startsAt              | timestamp of when the event starts.                 | Number\|null        |
-| duration                | duration in ms of the event                         | Number              |
-| isPrivate               | //                                                  | Boolean             |
-| mentions                | event's mentions                                    | Object              |
-| \_createdAt             | timestamp of the event's creation.                  | Number\|null        |
-| memberID                | id of the member who created the event.             | String              |
-| cancelation             | cancelation info (if canceled)                      | Object\|null        |
-| cancelation.description | cancelation description                             | String              |
-| cancelation.createdBy   | id of the member who canceled the event.            | String              |
-| member                  | Member that created the event.                      | [Member](member.md) |
-| createdAt               | string representation of the \_createdAt timestamp. | Date                |
+| Property                | Description                                         | Type                                                                                 |
+| ----------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| data                    | raw data                                            | Object                                                                               |
+| client                  | client                                              | [Client](client.md)                                                                  |
+| id                      | event id                                            | String                                                                               |
+| guildID                 | guild id                                            | String                                                                               |
+| channelID               | id of the channel                                   | String                                                                               |
+| name                    | event name                                          | String                                                                               |
+| description             | event description                                   | String                                                                               |
+| location                | event location set by member                        | String                                                                               |
+| url                     | event url set by member                             | String                                                                               |
+| color                   | event color                                         | Number                                                                               |
+| rsvpLimit               | attendant/entry limit                               | Number                                                                               |
+| \_startsAt              | timestamp of when the event starts.                 | Number\|null                                                                         |
+| duration                | duration in ms of the event                         | Number                                                                               |
+| isPrivate               | //                                                  | Boolean                                                                              |
+| mentions                | event's mentions                                    | Object ([<mark style="color:purple;">MentionsType</mark>](../types/mentionstype.md)) |
+| \_createdAt             | timestamp of the event's creation.                  | Number\|null                                                                         |
+| memberID                | id of the member who created the event.             | String                                                                               |
+| cancelation             | cancelation info (if canceled)                      | Object\|null                                                                         |
+| cancelation.description | cancelation description                             | String                                                                               |
+| cancelation.createdBy   | id of the member who canceled the event.            | String                                                                               |
+| member                  | Member that created the event.                      | [Member](member.md)                                                                  |
+| createdAt               | string representation of the \_createdAt timestamp. | Date                                                                                 |
 
 ## Constructor
 

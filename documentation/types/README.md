@@ -4,7 +4,11 @@ description: Get to know what's in objects without console logging.
 
 # Types
 
-## \[ UNRELEASED ]
+## Registered types
+
+It means that not every types are in this category, only registered types  (Types.d.ts) are displayed in this category..
+
+### Support us.
 
 #### Since TouchGuild is an early access library, we can't provide everything you'd like to get. We're doing our best to release helpful articles & documentation, such as this one.
 

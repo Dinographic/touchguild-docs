@@ -6,27 +6,27 @@ description: Component coming from a 'Forum' channel.
 
 ## Properties
 
-| Property         | Description                                                                | Type         |
-| ---------------- | -------------------------------------------------------------------------- | ------------ |
-| \_client         | Client                                                                     | Client       |
-| id               | Forum topic id                                                             | Number       |
-| guildID          | Guild/server id                                                            | String       |
-| channelID        | Forum channel id                                                           | String       |
-| name             | Topic name/title                                                           | String       |
-| title            | Topic name/title                                                           | String       |
-| \_createdAt      | Timestamp (unix epoch time) of the topic's creation.                       | Number       |
-| memberID         | ID of the member who created the topic                                     | String       |
-| webhookID        | ID of the webhook that created the topic (if created by webhook)           | String       |
-| \_updatedAt      | Timestamp (unix epoch time) of when the topic got updated. (if updated)    | Number\|null |
-| bumpedAt         | Timestamp (unix epoch time) that the forum topic was bumped at.            | String       |
-| content          | Content of the topic                                                       | String       |
-| mentions         | Topic mentions                                                             | Object       |
-| guild            | Guild/server the topic is in                                               | Guild        |
-| member           | Member who created the topic                                               | Member       |
-| channel          | The forum channel, where the topic is in                                   | Channel      |
-| createdAt        | string representation of the \_createdAt timestamp                         | Date         |
-| updatedAt        | string representation of the \_updatedAt timestamp                         | Date\|null   |
-| createdByWebhook | Boolean that tells you if the forum topic was created by a webhook or not. | Boolean      |
+| Property         | Description                                                                | Type                                                                                  |
+| ---------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| \_client         | Client                                                                     | Client                                                                                |
+| id               | Forum topic id                                                             | Number                                                                                |
+| guildID          | Guild/server id                                                            | String                                                                                |
+| channelID        | Forum channel id                                                           | String                                                                                |
+| name             | Topic name/title                                                           | String                                                                                |
+| title            | Topic name/title                                                           | String                                                                                |
+| \_createdAt      | Timestamp (unix epoch time) of the topic's creation.                       | Number                                                                                |
+| memberID         | ID of the member who created the topic                                     | String                                                                                |
+| webhookID        | ID of the webhook that created the topic (if created by webhook)           | String                                                                                |
+| \_updatedAt      | Timestamp (unix epoch time) of when the topic got updated. (if updated)    | Number\|null                                                                          |
+| bumpedAt         | Timestamp (unix epoch time) that the forum topic was bumped at.            | String                                                                                |
+| content          | Content of the topic                                                       | String                                                                                |
+| mentions         | Topic mentions                                                             | Object ([<mark style="color:purple;">MentionsTypes</mark>](../types/mentionstype.md)) |
+| guild            | Guild/server the topic is in                                               | Guild                                                                                 |
+| member           | Member who created the topic                                               | Member                                                                                |
+| channel          | The forum channel, where the topic is in                                   | Channel                                                                               |
+| createdAt        | string representation of the \_createdAt timestamp                         | Date                                                                                  |
+| updatedAt        | string representation of the \_updatedAt timestamp                         | Date\|null                                                                            |
+| createdByWebhook | Boolean that tells you if the forum topic was created by a webhook or not. | Boolean                                                                               |
 
 ## Constructor
 

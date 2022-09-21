@@ -27,7 +27,16 @@
   * [↗ ListItem](documentation/components/listitem.md)
   * [💭 Webhook](documentation/components/webhook.md)
 * [🌐 List of available events](documentation/list-of-available-events.md)
-* [Types](documentation/types.md)
+* [Types](documentation/types/README.md)
+  * [MentionsType (sample)](documentation/types/mentionstype-sample.md)
+  * [MentionsType](documentation/types/mentionstype.md)
+  * [ListItemNoteTypes](documentation/types/listitemnotetypes.md)
+  * [ChannelEditTypes](documentation/types/channeledittypes.md)
+  * [ChannelCategories](documentation/types/channelcategories.md)
+  * [messageReactionRawTypes](documentation/types/messagereactionrawtypes.md)
+  * [messageReactionTypes](documentation/types/messagereactiontypes.md)
+  * [emojiTypes](documentation/types/emojitypes.md)
+  * [socialLinkTypes](documentation/types/sociallinktypes.md)
 
 ## Misc
 
