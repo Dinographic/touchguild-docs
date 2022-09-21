@@ -28,7 +28,6 @@
   * [💭 Webhook](documentation/components/webhook.md)
 * [🌐 List of available events](documentation/list-of-available-events.md)
 * [Types](documentation/types/README.md)
-  * [MentionsType (sample)](documentation/types/mentionstype-sample.md)
   * [MentionsType](documentation/types/mentionstype.md)
   * [ListItemNoteTypes](documentation/types/listitemnotetypes.md)
   * [ChannelEditTypes](documentation/types/channeledittypes.md)

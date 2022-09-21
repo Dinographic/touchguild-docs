@@ -47,3 +47,17 @@ Client.on('messageCreate', (message)=> {
 {% hint style="info" %}
 Note: CommonJS, ESM & Typescript are supported.
 {% endhint %}
+
+### Need to get new features, right. Now?
+
+You can get new features before the stable release.
+
+Install Nighly builds via NPM:
+
+```bash
+npm install dinographicpixels/touchguild#nightly
+```
+
+{% hint style="warning" %}
+Be aware that Nightly builds aren't stable and can have still have major bugs. If you face issues, feel free to report it by creating an issue on TouchGuild's GitHub, please specify that you're using a Nightly build.
+{% endhint %}
