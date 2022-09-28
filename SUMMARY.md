@@ -37,6 +37,10 @@
   * [emojiTypes](documentation/types/emojitypes.md)
   * [socialLinkTypes](documentation/types/sociallinktypes.md)
 
+## Nightly
+
+* [🎯 Features](nightly/features.md)
+
 ## Misc
 
 * [😅 FAQ](misc/faq.md)
