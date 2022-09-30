@@ -59,6 +59,6 @@ client.on('messageDelete', (message)=> {
 ```
 
 {% hint style="info" %}
-Examples that are in the Nightly category may not work on stable builds until new stable build releases.
+Examples that are in the Nightly category may not work on stable builds, if it's the case, wait for the next stable build to release.
 {% endhint %}
 
