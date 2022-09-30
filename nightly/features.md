@@ -24,6 +24,14 @@ You can also unlock a specific topic with the unlockTopic method.
 | channelID  | id of the channel     | String |
 | topicID    | id of the forum topic | Number |
 
+### disconnect(crashOnDisconnect?)
+
+Disconnect the client from the Guilded API.
+
+| Properties         | Description                                                                                                         | Type    |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------- | ------- |
+| crashOnDisconnect? | <p>If true, it'll crash when executing the method. If false, it'll only log the action. </p><p>(default: false)</p> | Boolean |
+
 ## ForumTopic methods
 
 ### Use the lock() and unlock() methods.
