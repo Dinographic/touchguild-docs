@@ -27,7 +27,7 @@ For example, we'll create a simple ping pong script, a well known command!
 Javascript & Typescript:
 
 ```javascript
-const TouchGuild = require('TouchGuild') // import for CommonJS
+const TouchGuild = require('touchguild') // import for CommonJS
 // import * as TouchGuild from 'TouchGuild' // import for ESM & TS
 
 const Client = new TouchGuild.Client({token: 'insert token here'}) // create client
@@ -60,4 +60,8 @@ npm install dinographicpixels/touchguild#nightly
 
 {% hint style="warning" %}
 Be aware that Nightly builds aren't stable and can have still have major bugs. If you face issues, feel free to report it by creating an issue on TouchGuild's GitHub, please specify that you're using a Nightly build.
+{% endhint %}
+
+{% hint style="info" %}
+You can check [Nightly Features here.](nightly/features.md)
 {% endhint %}
