@@ -40,6 +40,8 @@
 ## Nightly
 
 * [🎯 Features](nightly/features.md)
+* [Examples](nightly/examples/README.md)
+  * [Snipe & editsnipe](nightly/examples/snipe-and-editsnipe.md)
 
 ## Misc
 
