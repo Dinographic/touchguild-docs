@@ -20,11 +20,15 @@ new TouchGuild.DevTools.call();
 
 Make a GET request.
 
+Returns: <mark style="color:purple;">Promise\<object|void></mark>
+
 
 
 #### post(endpoint: string, token: string, data: string|object, crashOnRejection?: boolean)
 
 Make a POST request.
+
+Returns: <mark style="color:purple;">Promise\<object|void></mark>
 
 
 
@@ -32,17 +36,23 @@ Make a POST request.
 
 Make a PUT request.
 
+Returns: <mark style="color:purple;">Promise\<object|void></mark>
+
 
 
 #### patch(endpoint: string, token: string, data: string|object, crashOnRejection?: boolean)
 
 Make a PATCH request.
 
+Returns: <mark style="color:purple;">Promise\<object|void></mark>
+
 
 
 #### delete(endpoint: string, token:string, crashOnRejection?: boolean)
 
 Make a DELETE request.
+
+Returns: <mark style="color:purple;">Promise\<object|void></mark>
 
 
 
@@ -52,13 +62,25 @@ Make a DELETE request.
 
 Get a synchronously a channel.
 
+Returns: [<mark style="color:purple;">Channel</mark>](../documentation/components/channel.md)<mark style="color:purple;"></mark>
+
+<mark style="color:purple;"></mark>
+
 #### syncGetMember(guildID: string, memberID: string, client:Client)
 
 Get a synchronously a member.
 
+Returns: [<mark style="color:purple;">Member</mark>](../documentation/components/member.md)<mark style="color:purple;"></mark>
+
+
+
 #### syncGetGuild(guildID: string, client: Client)
 
 Get a synchronously a guild.
+
+Returns: [<mark style="color:purple;">Guild</mark>](../documentation/components/guild.md)<mark style="color:purple;"></mark>
+
+
 
 ### Deprecated methods.
 
@@ -70,8 +92,12 @@ We do not recommend to use deprecated methods, they're may be very buggy & we do
 
 Make an HTTP request. (asynchronous)
 
+Returns: <mark style="color:purple;">Promise\<object|void></mark>
+
 
 
 #### SYNCFETCH(method: string, endpoint: string, TOKEN: any, BODY:string|any)
 
 Make an HTPP request. (synchronous)
+
+Returns: <mark style="color:purple;">object|void</mark>
