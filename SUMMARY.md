@@ -40,6 +40,7 @@
 ## Nightly
 
 * [🎯 Features](nightly/features.md)
+* [⚙ TouchGuild.DevTools](nightly/touchguild.devtools.md)
 * [Examples](nightly/examples/README.md)
   * [Snipe & editsnipe](nightly/examples/snipe-and-editsnipe.md)
 
