@@ -26,4 +26,20 @@ You can make [pull requests](https://github.com/DinographicPixels/TouchGuild/pul
 
 </details>
 
+<details>
+
+<summary>"I don't get why i should use TouchGuild over guilded.js"</summary>
+
+#### TouchGuild has a different approach about how you use a library.
+
+While creating TouchGuild, we thought about how it should be used & how to make the library durable & even if deprecation happen.
+
+We built TouchGuild to be durable, if deprecation happens you can still use it by importing 'calls' and send requests to the Guilded API, we also made proper methods to use less ram & get data that directly comes from the API itself. (those methods are called Non-REST methods)
+
+We also built our cache to be simple but useful. The TouchGuild's cache stores message components when sent, so you can get information about them when you'd like, and even more. You can also get the whole cache by using 'Client.cache'.
+
+We're making interfacing with the API accessible, and easier. Everything's related to this is gonna be managed by us. You have to build everything on your own, except the communcation layer between you & Guilded.
+
+</details>
+
 More frequently asked questions coming soon, as they're asked, haha!
