@@ -42,4 +42,29 @@ We're making interfacing with the API accessible, and easier. Everything's relat
 
 </details>
 
+<details>
+
+<summary>Is TouchGuild for beginners?</summary>
+
+TouchGuild requires advanced development skills, the basis are understandable by beginners.
+
+The TouchGuild library does not include helpful constructors to:
+
+* easily make embeds
+* collect messages
+
+It still can be used for beginners if they're able to create message collectors & more, if they need to.
+
+</details>
+
+<details>
+
+<summary>Why types are weird compared to other libraries?</summary>
+
+Types are inspired of Eris, a Discord library. Every methods, properties are named wisely to be accurate about what they're actually doing.
+
+For example, a REST method will be named 'getRESTChannelMessages' and the Non-REST method will be named 'getChannelMessages'
+
+</details>
+
 More frequently asked questions coming soon, as they're asked, haha!
