@@ -48,6 +48,12 @@ Client.on('messageCreate', (message)=> {
 Note: CommonJS, ESM & Typescript are supported.
 {% endhint %}
 
+## Nightly builds
+
+Nightly builds are pre-release builds, they're having new features in real time. Once there's enough features, we're releasing them as a brand new 'stable build'.
+
+<figure><img src=".gitbook/assets/touchguild nightly.png" alt=""><figcaption></figcaption></figure>
+
 ### Need to get new features, right. Now?
 
 You can get new features before the stable release.
