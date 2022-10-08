@@ -28,7 +28,7 @@ You can make [pull requests](https://github.com/DinographicPixels/TouchGuild/pul
 
 <details>
 
-<summary>"I don't get why i should use TouchGuild over guilded.js"</summary>
+<summary>"I don't get why I should use TouchGuild over guilded.js"</summary>
 
 #### TouchGuild has a different approach about how you use a library.
 
