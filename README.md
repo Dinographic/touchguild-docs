@@ -6,42 +6,33 @@ description: >-
 
 # 🌟 Get started
 
-<figure><img src=".gitbook/assets/touchguild-banner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/touchguild-cradius.png" alt=""><figcaption></figcaption></figure>
 
-## Get started, it's easy.
+## Installation
 
-You'll need to download Node (npm), sorry yarn users but it's not for now.
-
-### Install the package
+NodeJS **16.16.0** or higher is required.
 
 ```bash
 npm install touchguild@latest
 ```
 
-### Basic scripting (ping, pong!)
-
-Let's get started, it'll be easy examples for ya!
-
-For example, we'll create a simple ping pong script, a well known command!
-
-Javascript & Typescript:
+## Get started
 
 ```javascript
-const TouchGuild = require('touchguild') // import for CommonJS
-// import * as TouchGuild from 'TouchGuild' // import for ESM & TS
+const TouchGuild = require('touchguild'); // import for CommonJS
+// import * as TouchGuild from 'touchguild' // import for ESM & TS
 
-const Client = new TouchGuild.Client({token: 'insert token here'}) // create client
+const client = new TouchGuild.Client({token: 'insert token here'});
 
-Client.connect();
-
-Client.on('messageCreate', (message)=> {
-    // Detects when a message is created and executes the code here.
-    if (message.member.bot == true) return; // ignores bot messages.
-    if (message.content == '!ping'){
-        // if the message command is !ping, it executes the code here.
-        message.createMessage({content: 'pong!'}); // create a message.
-    }
+client.on('ready', ()=> {
+   console.log("I'm ready!");
 });
+
+client.on('error', ()=> {
+   console.error("Whoops, somethin' went wrong..");
+});
+
+client.connect();
 ```
 
 {% hint style="info" %}
@@ -58,7 +49,13 @@ Nightly builds are pre-release builds, they're having new features in real time.
 
 You can get new features before the stable release.
 
-Install Nighly builds via NPM:
+#### Install the latest Nightly build through NPM:
+
+```bash
+npm install touchguild@nightly
+```
+
+#### Install the latest Nightly build through GitHub using NPM:
 
 ```bash
 npm install dinographicpixels/touchguild#nightly
@@ -71,3 +68,26 @@ Be aware that Nightly builds aren't stable and can have still have major bugs. I
 {% hint style="info" %}
 You can check [Nightly Features here.](nightly/features.md)
 {% endhint %}
+
+## LINKS:
+
+#### Repository & NPM
+
+* [NPM Package](https://www.npmjs.com/package/touchguild)
+* [GitHub](https://github.com/DinographicPixels/TouchGuild)
+
+#### Guide & documentation
+
+* [Guide](https://docs.touchguild.dinographicpixels.com/guide/get-started)
+* [Documentation](https://docs.touchguild.dinographicpixels.com/documentation/home)
+
+#### Additional links
+
+* [Our vision of the project](https://docs.touchguild.dinographicpixels.com/misc/our-vision)
+* [FAQ](https://docs.touchguild.dinographicpixels.com/misc/faq)
+* [Get started, youtube video](https://www.youtube.com/watch?v=AUaiQRMjJZo)
+
+#### Our servers
+
+* [Our Discord server](https://discord.gg/UgPRaGRkrQ)
+* [Our Guilded server](https://www.guilded.gg/i/ExPXPrwE)
