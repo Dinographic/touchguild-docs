@@ -1,7 +1,5 @@
 ---
-description: >-
-  TouchGuild is a library built to let you interface with the Guilded API. It
-  has easy & predictable types, some of them are inspired by Discord Eris.
+description: TouchGuild is a NodeJS library for interfacing with Guilded.
 ---
 
 # 🌟 Get started
