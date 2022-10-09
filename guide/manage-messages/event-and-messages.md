@@ -9,7 +9,7 @@ description: >-
 ## Using messageCreate to reply to a specific message.
 
 ```javascript
-client.on('messageCreate', async(message)=> {
+Client.on('messageCreate', async(message)=> {
     if (message.member.bot == true) return;
     if (message.content == 'are you here?'){
         message.createMessage({content: 'yes i am here!'})
@@ -20,7 +20,7 @@ client.on('messageCreate', async(message)=> {
 ## Using messageCreate event to delete bad words.
 
 ```javascript
-client.on('messageCreate', async(message)=> {
+Client.on('messageCreate', async(message)=> {
     if (message.member.bot == true) return;
     if (message.content == 'insert bad word here lol'){
         message.delete();

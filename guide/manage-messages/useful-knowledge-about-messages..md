@@ -9,7 +9,7 @@ lastMessage is a group of method that you can use, they're here to boost your pr
 Allows you to edit/delete the last message sent with the message itself, not clear enough? Check this:
 
 ```javascript
-client.on('messageCreate', async(message)=> {
+Client.on('messageCreate', async(message)=> {
    if (message.member.bot == true) return;
    await message.createMessage({content: "this is a message"}) // this is msg1
    await message.editLastMessage({content: "msg1 is edited."})
@@ -32,7 +32,7 @@ editOriginalMessage allows you to edit the first message sent by the bot. It mea
 Not clear enough? Check this:
 
 ```javascript
-client.on('messageCreate', async(message)=> {
+Client.on('messageCreate', async(message)=> {
    if (message.member.bot == true) return;
    var originalMessage = await message.createMessage({content: 'hi'});
    var newMessage = await message.createMessage({content: 'this is a new message'});

@@ -39,7 +39,7 @@ message.edit({content: 'new content here!'}) // yes, the syntax changes a bit :)
 
 ```javascript
 // within client
-client.deleteMessage('channel id here', 'message id herer')
+client.deleteMessage('channel id here', 'message id here')
 
 // within message itself
 message.delete(); // the easiest!

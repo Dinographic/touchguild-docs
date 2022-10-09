@@ -56,5 +56,5 @@ Example taken from Guilded API Docs.
 ### Now, let's send it.
 
 ```javascript
-client.createMessage('channelID', {embeds: [embed]})
+Client.createMessage('channelID', {embeds: [embed]})
 ```
