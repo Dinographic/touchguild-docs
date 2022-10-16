@@ -6,6 +6,8 @@
 
 It includes: id, botID, username, createdAt & createdBy properties.
 
+[More information about types, here.](../../../documentation/types/userclienttypes.md)
+
 ```typescript
 console.log(client.user.id) // Output: 123456789 (your logged bot's user id)
 ```

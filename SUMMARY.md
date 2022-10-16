@@ -42,7 +42,7 @@
 
 * [🎯 Features](nightly/features/README.md)
   * [💯 New methods](nightly/features/new-methods/README.md)
-    * [🤖 New Client methods](nightly/features/new-methods/new-client-methods.md)
+    * [🤖 New Client methods](nightly/features.md)
     * [🗣 New ForumTopic methods](nightly/features/new-methods/new-forumtopic-methods.md)
   * [🧞♂ New properties](nightly/features/new-properties/README.md)
     * [🤖 New Client properties](nightly/features/new-properties/new-client-properties.md)
