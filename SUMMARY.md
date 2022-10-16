@@ -36,6 +36,7 @@
   * [messageReactionTypes](documentation/types/messagereactiontypes.md)
   * [emojiTypes](documentation/types/emojitypes.md)
   * [socialLinkTypes](documentation/types/sociallinktypes.md)
+  * [UserClientTypes](documentation/types/userclienttypes.md)
 
 ## Nightly
 

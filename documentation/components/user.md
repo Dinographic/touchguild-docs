@@ -15,8 +15,8 @@ description: >-
 | type        | Type of user, bot or user                           | String              |
 | username    | User's username                                     | String              |
 | \_createdAt | Timestamp of the user's creation.                   | Number              |
-| avatarURL   | user's avatar url                                   | String              |
-| bannerURL   | user's banner url                                   | String              |
+| avatarURL   | user's avatar url                                   | String\|null        |
+| bannerURL   | user's banner url                                   | String\|null        |
 | createdAt   | string representation of the \_createdAt timestamp. | Date                |
 
 ## Constructor
