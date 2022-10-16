@@ -41,7 +41,11 @@
 ## Nightly
 
 * [🎯 Features](nightly/features/README.md)
-  * [New Client properties](nightly/features/new-client-properties.md)
+  * [💯 New methods](nightly/features/new-methods/README.md)
+    * [🤖 New Client methods](nightly/features/new-methods/new-client-methods.md)
+    * [🗣 New ForumTopic methods](nightly/features/new-methods/new-forumtopic-methods.md)
+  * [🧞♂ New properties](nightly/features/new-properties/README.md)
+    * [🤖 New Client properties](nightly/features/new-properties/new-client-properties.md)
 * [⚙ TouchGuild.DevTools](nightly/touchguild.devtools.md)
 * [Examples](nightly/examples/README.md)
   * [Snipe & editsnipe](nightly/examples/snipe-and-editsnipe.md)

@@ -64,7 +64,7 @@ Be aware that Nightly builds aren't stable and can have still have major bugs. I
 {% endhint %}
 
 {% hint style="info" %}
-You can check [Nightly Features here.](nightly/features/)
+You can check [Nightly Features here.](nightly/features/new-methods/new-client-methods.md)
 {% endhint %}
 
 ## LINKS:
