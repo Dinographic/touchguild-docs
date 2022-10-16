@@ -40,7 +40,8 @@
 
 ## Nightly
 
-* [🎯 Features](nightly/features.md)
+* [🎯 Features](nightly/features/README.md)
+  * [New Client properties](nightly/features/new-client-properties.md)
 * [⚙ TouchGuild.DevTools](nightly/touchguild.devtools.md)
 * [Examples](nightly/examples/README.md)
   * [Snipe & editsnipe](nightly/examples/snipe-and-editsnipe.md)

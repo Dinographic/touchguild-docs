@@ -2,7 +2,7 @@
 description: Component coming from a 'Forum' channel.
 ---
 
-# 📆 ForumTopic
+# 🗣 ForumTopic
 
 ## Properties
 

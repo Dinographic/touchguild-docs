@@ -13,10 +13,10 @@ description: Get last deleted/edited message content.
 
 ```typescript
 // Importing TouchGuild.
-import * as touchguild from 'touchguild';
+import * as TouchGuild from 'touchguild';
 
 // Creating client & connecting.
-const client = new touchguild.Client({token: 'token here', REST: true});
+const client = new TouchGuild.Client({token: 'token here', REST: true});
 client.connect();
 
 // Declaring deleted & edited message maps.
