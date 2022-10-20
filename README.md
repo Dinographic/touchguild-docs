@@ -8,7 +8,7 @@ description: TouchGuild is a NodeJS library for interfacing with Guilded.
 
 ## Installation
 
-NodeJS **16.16.0** or higher is required.
+NodeJS **16.16.0** or higher is required
 
 ```bash
 npm install touchguild@latest
