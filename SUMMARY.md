@@ -5,8 +5,8 @@
 * [🌟 Get started](README.md)
 * [👾 Manage messages](guide/heres-the-guide-for-guilder./manage-messages.md)
   * [Event and messages](guide/manage-messages/event-and-messages.md)
-  * [🧑🎓 Useful knowledge about messages.](guide/manage-messages/useful-knowledge-about-messages..md)
-* [# Creating embeds](guide/heres-the-guide-for-guilder./creating-embeds.md)
+  * [🧑🎓 🧑🎓 Useful knowledge about messages.](guide/manage-messages/useful-knowledge-about-messages..md)
+* [# # Creating embeds](guide/heres-the-guide-for-guilder./creating-embeds.md)
 * [🏓 Receiving events](guide/heres-the-guide-for-guilder./receiving-events.md)
 
 ## Documentation
@@ -17,7 +17,7 @@
   * [☕ Channel](documentation/components/channel.md)
   * [💬 Message](documentation/components/message.md)
   * [🏛 Guild](documentation/components/guild.md)
-  * [🙇♂ User](documentation/components/user.md)
+  * [🙇♂ 🙇♂ User](documentation/components/user.md)
   * [🫂 Member](documentation/components/member.md)
   * [☠ BannedMember](documentation/components/bannedmember.md)
   * [🗓 CalendarEvent](documentation/components/calendarevent.md)
@@ -44,7 +44,7 @@
   * [💯 New methods](nightly/features/new-methods/README.md)
     * [🤖 New Client methods](nightly/features.md)
     * [🗣 New ForumTopic methods](nightly/features/new-methods/new-forumtopic-methods.md)
-  * [🧞♂ New properties](nightly/features/new-properties/README.md)
+  * [🧞♂ 🧞♂ New properties](nightly/features/new-properties/README.md)
     * [🤖 New Client properties](nightly/features/new-properties/new-client-properties.md)
 * [⚙ TouchGuild.DevTools](nightly/touchguild.devtools.md)
 * [Examples](nightly/examples/README.md)

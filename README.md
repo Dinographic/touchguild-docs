@@ -43,21 +43,28 @@ Nightly builds are pre-release builds, they're having new features in real time.
 
 <figure><img src=".gitbook/assets/touchguild nightly.png" alt=""><figcaption></figcaption></figure>
 
-### Need to get new features, right. Now?
+## Need to get new features, right. Now?
 
 You can get new features before the stable release.
 
-#### Install the latest Nightly build through NPM:
+### Install the latest Nightly build automatically:
 
 ```bash
 npm install touchguild@nightly
 ```
 
-#### Install the latest Nightly build through GitHub using NPM:
+### Install the latest Nightly build manually:
 
 ```bash
 npm install dinographicpixels/touchguild#nightly
 ```
+
+1. Run the command
+2. Go to `node_modules/touchguild`
+3. Run: `npm run build` in the touchguild folder
+4. &#x20;Now, it's ready.
+
+You need to reproduce those steps everytime you update to a newer nightly build.
 
 {% hint style="warning" %}
 Be aware that Nightly builds aren't stable and can have still have major bugs. If you face issues, feel free to report it by creating an issue on TouchGuild's GitHub, please specify that you're using a Nightly build.
