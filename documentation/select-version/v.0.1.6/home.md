@@ -19,7 +19,7 @@ and even, more..
 
 ## Need to get started?
 
-### [Click here](../#get-started-its-easy.).
+### [Click here](broken-reference).
 
 
 

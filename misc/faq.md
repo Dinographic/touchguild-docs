@@ -61,7 +61,7 @@ It still can be used for beginners if they're able to create message collectors 
 
 <summary>Why types are weird compared to other libraries?</summary>
 
-Types are inspired of Eris, a Discord library. Every methods, properties are named wisely to be accurate about what they're actually doing.
+Types are inspired of Eris & Oceanic.js (Discord libraries). Every methods, properties are named wisely to be accurate about what they're actually doing.
 
 For example, a REST method will be named 'getRESTChannelMessages' and the Non-REST method will be named 'getChannelMessages'
 

@@ -10,9 +10,25 @@ description: TouchGuild is a NodeJS library for interfacing with Guilded.
 
 NodeJS **16.16.0** or higher is required.
 
+{% tabs %}
+{% tab title="npm" %}
 ```bash
 npm install touchguild@latest
 ```
+{% endtab %}
+
+{% tab title="yarn" %}
+```bash
+yarn add touchguild@latest
+```
+{% endtab %}
+
+{% tab title="ppm" %}
+```bash
+pnpm add touchguild@latest
+```
+{% endtab %}
+{% endtabs %}
 
 ## Get started
 
@@ -23,11 +39,11 @@ const TouchGuild = require('touchguild'); // import for CommonJS
 const client = new TouchGuild.Client({token: 'insert token here'});
 
 client.on('ready', ()=> {
-   console.log("I'm ready!");
+   console.log(`Logged as ${client.user.username}`);
 });
 
-client.on('error', ()=> {
-   console.error("Whoops, somethin' went wrong..");
+client.on('error', (err)=> {
+   console.error("Whoops, somethin' went wrong..", err);
 });
 
 client.connect();
@@ -37,21 +53,37 @@ client.connect();
 Note: CommonJS, ESM & Typescript are supported.
 {% endhint %}
 
-## Nightly builds
+## Development builds (Nightly)
 
 Nightly builds are pre-release builds, they're having new features in real time. Once there's enough features, we're releasing them as a brand new 'stable build'.
 
 <figure><img src=".gitbook/assets/touchguild nightly.png" alt=""><figcaption></figcaption></figure>
 
-## Need to get new features, right. Now?
+## Install Nightly builds
 
 You can get new features before the stable release.
 
 ### Install the latest Nightly build automatically:
 
+{% tabs %}
+{% tab title="npm" %}
 ```bash
 npm install touchguild@nightly
 ```
+{% endtab %}
+
+{% tab title="yarn" %}
+```bash
+yarn add touchguild@nightly
+```
+{% endtab %}
+
+{% tab title="ppm" %}
+```bash
+pnpm add touchguild@nightly
+```
+{% endtab %}
+{% endtabs %}
 
 ### Install the latest Nightly build manually:
 
@@ -61,7 +93,7 @@ npm install dinographicpixels/touchguild#nightly
 
 1. Run the command
 2. Go to `node_modules/touchguild`
-3. Run: `npm run build` in the touchguild folder
+3. Run: `npm run build` inside the touchguild folder
 4. &#x20;Now, it's ready.
 
 You need to reproduce those steps everytime you update to a newer nightly build.
@@ -71,10 +103,10 @@ Be aware that Nightly builds aren't stable and can have still have major bugs. I
 {% endhint %}
 
 {% hint style="info" %}
-You can check [Nightly Features here.](nightly/features.md)
+You can check [Nightly Features here.](broken-reference)
 {% endhint %}
 
-## LINKS:
+## Additional links:
 
 #### Repository & NPM
 
@@ -83,8 +115,8 @@ You can check [Nightly Features here.](nightly/features.md)
 
 #### Guide & documentation
 
-* [Guide](https://docs.touchguild.dinographicpixels.com/guide/get-started)
-* [Documentation](https://docs.touchguild.dinographicpixels.com/documentation/home)
+* [Guide](https://guide.touchguild.dinographicpixels.com)
+* [Documentation](documentation/select-version/)
 
 #### Additional links
 
