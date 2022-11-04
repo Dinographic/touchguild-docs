@@ -94,7 +94,7 @@ Get a list channel Message component.
 | filter.limit?          | Limit the channel message output | Number  |
 | filter.includePrivate? | Include private messages or not  | Boolean |
 
-> Returns: <mark style="color:purple;">Promise\<Array<</mark>[<mark style="color:purple;">Message</mark>](../../v.0.1.6/components/message.md)<mark style="color:purple;">>></mark>
+> Returns: <mark style="color:purple;">Promise\<Array<</mark>[<mark style="color:purple;">Message</mark>](message.md)<mark style="color:purple;">>></mark>
 
 ### getRESTChannelDocs(channelID, filter?)
 
@@ -482,7 +482,7 @@ Create a message in a specific channel.
 | options.isSilent        | notify user(s)?                                            | Boolean        | false     |
 | options.isPrivate       | message will only be seen by those mentioned or replied to | Boolean        | false     |
 
-> Returns: <mark style="color:blue;">Promise</mark><[<mark style="color:purple;">Message</mark>](../../v.0.1.6/components/message.md)>
+> Returns: <mark style="color:blue;">Promise</mark><[<mark style="color:purple;">Message</mark>](message.md)>
 
 ### editMessage(channelID, messageID, newMessage)
 
@@ -496,7 +496,7 @@ Update a specific message.
 | newMessage.content | new message content   | String         | false     |
 | newMessage.embeds  | new message's embeds  | Array\<Object> | false     |
 
-> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Message</mark>](../../v.0.1.6/components/message.md)<mark style="color:purple;">></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Message</mark>](message.md)<mark style="color:purple;">></mark>
 
 ### deleteMessage(channelID, messageID)
 
