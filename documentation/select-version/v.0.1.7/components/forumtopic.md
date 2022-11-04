@@ -20,7 +20,7 @@ description: Component coming from a 'Forum' channel.
 | \_updatedAt      | Timestamp (unix epoch time) of when the topic got updated. (if updated)    | Number\|null                                                                                     |
 | bumpedAt         | Timestamp (unix epoch time) that the forum topic was bumped at.            | String                                                                                           |
 | content          | Content of the topic                                                       | String                                                                                           |
-| mentions         | Topic mentions                                                             | Object ([<mark style="color:purple;">MentionsTypes</mark>](../../v.0.1.6/types/mentionstype.md)) |
+| mentions         | Topic mentions                                                             | Object ([<mark style="color:purple;">MentionsTypes</mark>](../../v.0.1.7/types/mentionstype.md)) |
 | guild            | Guild/server the topic is in                                               | Guild                                                                                            |
 | member           | Member who created the topic                                               | Member                                                                                           |
 | channel          | The forum channel, where the topic is in                                   | Channel                                                                                          |
@@ -37,7 +37,7 @@ new ForumTopic(rawData, client)
 | Properties | Description                                     | Type                                         | Required? |
 | ---------- | ----------------------------------------------- | -------------------------------------------- | --------- |
 | rawData    | raw data received from ws and converted to JSON | Object                                       | true      |
-| client     | Client                                          | [Client](../../v.0.1.6/components/client.md) | true      |
+| client     | Client                                          | [Client](../../v.0.1.7/components/client.md) | true      |
 
 {% hint style="danger" %}
 Do not use this constructor unless you know what you're doing. This constructor is used to return you rawdata into component.
@@ -55,7 +55,7 @@ Edit the forum topic.
 | options.title?   | New topic title/name. | String | false     |
 | options.content? | New topic content.    | String | false     |
 
-> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEventRSVP</mark>](../../v.0.1.6/components/calendareventrsvp.md)<mark style="color:purple;">></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEventRSVP</mark>](../../v.0.1.7/components/calendareventrsvp.md)<mark style="color:purple;">></mark>
 
 ### delete()
 
