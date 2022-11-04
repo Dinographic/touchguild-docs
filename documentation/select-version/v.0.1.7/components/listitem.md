@@ -9,12 +9,12 @@ description: ListItem is a 'list channel' component. It has his own properties a
 | Property         | Description                                                                                             | Type                                                                                            |
 | ---------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | \_data           | raw data                                                                                                | Object                                                                                          |
-| \_client         | client                                                                                                  | [Client](../../v.0.1.6/components/client.md)                                                    |
+| \_client         | client                                                                                                  | [Client](../../v.0.1.7/components/client.md)                                                    |
 | id               | item id                                                                                                 | String                                                                                          |
 | guildID          | id of the guild                                                                                         | String                                                                                          |
 | channelID        | id of the list channel                                                                                  | String                                                                                          |
 | content          | content of the item                                                                                     | String                                                                                          |
-| mentions         | mentions contained in the item                                                                          | Object ([<mark style="color:purple;">MentionsType</mark>](../../v.0.1.6/types/mentionstype.md)) |
+| mentions         | mentions contained in the item                                                                          | Object ([<mark style="color:purple;">MentionsType</mark>](../../v.0.1.7/types/mentionstype.md)) |
 | \_createdAt      | timestamp of item's creation                                                                            | Number                                                                                          |
 | memberID         | id of the member who created the item                                                                   | String                                                                                          |
 | webhookID        | id of the webhook who created/updated the item.                                                         | String                                                                                          |
@@ -24,7 +24,7 @@ description: ListItem is a 'list channel' component. It has his own properties a
 | \_completedAt    | timestamp of the item's completion                                                                      | Number                                                                                          |
 | completedBy      | set to completed by'?'                                                                                  | String                                                                                          |
 | note             | note object provided by guilded, with all the note information.                                         | Object                                                                                          |
-| member           | Member component of the the owner of the item or the user who updated the item (depends on the action). | [Member](../../v.0.1.6/components/member.md)\|void                                              |
+| member           | Member component of the the owner of the item or the user who updated the item (depends on the action). | [Member](../../v.0.1.7/components/member.md)\|void                                              |
 | createdAt        | string representation of the \_createdAt timestamp.                                                     | Date                                                                                            |
 | updatedAt        | string representation of the \_updatedAt timestamp.                                                     | Date                                                                                            |
 | completedAt      | string representation of the \_completedAt timestamp.                                                   | Date                                                                                            |
@@ -38,7 +38,7 @@ new ListItem(rawData, client)
 | Properties | Description                                     | Type                                         | Required? |
 | ---------- | ----------------------------------------------- | -------------------------------------------- | --------- |
 | rawData    | raw data received from ws and converted to JSON | Object                                       | true      |
-| client     | Client                                          | [Client](../../v.0.1.6/components/client.md) | true      |
+| client     | Client                                          | [Client](../../v.0.1.7/components/client.md) | true      |
 
 {% hint style="danger" %}
 Do not use this constructor unless you know what you're doing. This constructor is used to return you rawdata into component.
@@ -56,7 +56,7 @@ Edit the list item.
 | note?         | Item's additional note   | Object | false     |
 | note?.content | note's content           | String | true      |
 
-> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">ListItem</mark>](../../v.0.1.6/components/listitem.md)<mark style="color:purple;">></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">ListItem</mark>](../../v.0.1.7/components/listitem.md)<mark style="color:purple;">></mark>
 
 ### delete()
 
