@@ -15,7 +15,7 @@ description: >-
 | \_joinedAt | Timestamp of when the user joined the guild.       | Number\|null                               |
 | isOwner    | If the member is the guild's owner or not.         | Boolean                                    |
 | guildID    | The ID of the guild.                               | String                                     |
-| guild      | Guild component                                    | [Guild](../../v.0.1.6/components/guild.md) |
+| guild      | Guild component                                    | [Guild](../../v.0.1.7/components/guild.md) |
 | joinedAt   | string representation of the \_joinedAt timestamp. | Date                                       |
 | user       | User component with less information.              | [User](user.md)                            |
 
@@ -28,7 +28,7 @@ new Member(rawData, client, guildID)
 | Properties | Description                                     | Type                                         | Required? |
 | ---------- | ----------------------------------------------- | -------------------------------------------- | --------- |
 | rawData    | raw data received from ws and converted to JSON | Object                                       | true      |
-| client     | Client                                          | [Client](../../v.0.1.6/components/client.md) | true      |
+| client     | Client                                          | [Client](../../v.0.1.7/components/client.md) | true      |
 | guildID    | Guild id                                        | String                                       | true      |
 
 {% hint style="danger" %}
