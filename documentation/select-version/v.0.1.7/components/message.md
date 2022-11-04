@@ -11,7 +11,7 @@ description: >-
 | Property              | Description                                                                                                         | Type                                                                                            |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | \_data                | Original message data.                                                                                              | Object                                                                                          |
-| \_client              | the client that receives the channel data                                                                           | <mark style="color:purple;"></mark>[Client](../../v.0.1.7/components/client.md)                 |
+| \_client              | the client that receives the channel data                                                                           | <mark style="color:purple;"></mark>[Client](client.md)                 |
 | id                    | id of the message                                                                                                   | String                                                                                          |
 | type                  | type of message ('user' or 'system')                                                                                | String                                                                                          |
 | channel               | channel where the message has been sent                                                                             | [Channel](channel.md)                                                                           |
@@ -22,7 +22,7 @@ description: >-
 | embeds                | message's embed(s)                                                                                                  | Array\<Object>                                                                                  |
 | isPrivate             | is message private? true/false                                                                                      | Boolean                                                                                         |
 | isSilent              | if the message doesn't notify a user                                                                                | Boolean                                                                                         |
-| mentions              | Message mentions object                                                                                             | Object ([<mark style="color:purple;">MentionsType</mark>](../../v.0.1.7/types/mentionstype.md)) |
+| mentions              | Message mentions object                                                                                             | Object ([<mark style="color:purple;">MentionsType</mark>](../types/mentionstype.md)) |
 | \_createdAt           | timestamp that the message was created at                                                                           | Number                                                                                          |
 | memberID              | id of the message author                                                                                            | String                                                                                          |
 | \_updatedAt           | timestamp that the message was updated at                                                                           | Number\|null                                                                                    |
@@ -39,7 +39,7 @@ description: >-
 | deletedAt             | string representation of the \_deletedAt timestamp.                                                                 | Date\|void                                                                                      |
 | member                | Get the member component, which returns Member when message guildID and memberID is defined or if Member is cached. | Member\|undefined                                                                               |
 | guild                 | Guild component where the message has been sent                                                                     | Guild                                                                                           |
-| channel               | Channel component where the message has been sent on                                                                | [Channel](../../v.0.1.7/components/channel.md)                                                  |
+| channel               | Channel component where the message has been sent on                                                                | [Channel](channel.md)                                                  |
 
 ## Constructor
 
@@ -50,9 +50,9 @@ new Message(rawData, client, params)
 | Properties                | Description                                         | Type                                           | Required? |
 | ------------------------- | --------------------------------------------------- | ---------------------------------------------- | --------- |
 | rawData                   | raw data received from ws and converted to JSON     | Object                                         | true      |
-| client                    | Client                                              | [Client](../../v.0.1.7/components/client.md)   | true      |
+| client                    | Client                                              | [Client](client.md)   | true      |
 | params?                   | Object of params                                    | Object                                         | false     |
-| params.oldMessage?        | old message component, if cached.                   | [Message](../../v.0.1.7/components/message.md) | false     |
+| params.oldMessage?        | old message component, if cached.                   | [Message](message.md) | false     |
 | params.originalMessageID? | ID of the transfered original message. If existant. | String                                         | false     |
 
 {% hint style="danger" %}
@@ -74,7 +74,7 @@ Create a message in the message's channel.
 | options.isSilent        | notify user(s)?                                            | Boolean        | false     |
 | options.isPrivate       | message will only be seen by those mentioned or replied to | Boolean        | false     |
 
-> Returns: <mark style="color:blue;">Promise</mark><[<mark style="color:purple;">Message</mark>](../../v.0.1.7/components/message.md)>
+> Returns: <mark style="color:blue;">Promise</mark><[<mark style="color:purple;">Message</mark>](message.md)>
 
 ### edit(newMessage)
 
@@ -86,7 +86,7 @@ Update/edit the message.
 | newMessage.content | message content  | String | false     |
 | newMessage.embeds  | message's embeds | Object | false     |
 
-> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Message</mark>](../../v.0.1.7/components/message.md)<mark style="color:purple;">></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Message</mark>](message.md)<mark style="color:purple;">></mark>
 
 ### delete()
 
@@ -104,7 +104,7 @@ Edit the last message sent with the message itself.
 | newMessage.content | message content  | String | false     |
 | newMessage.embeds  | message's embeds | Object | false     |
 
-> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Message</mark>](../../v.0.1.7/components/message.md)<mark style="color:purple;">></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Message</mark>](message.md)<mark style="color:purple;">></mark>
 
 ### deleteLastMessage()
 
@@ -122,7 +122,7 @@ Edit the message's original message, if existant.
 | newMessage.content | message content  | String | false     |
 | newMessage.embeds  | message's embeds | Object | false     |
 
-> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Message</mark>](../../v.0.1.7/components/message.md)<mark style="color:purple;">></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Message</mark>](message.md)<mark style="color:purple;">></mark>
 
 ### deleteOriginalMessage()
 

@@ -8,7 +8,7 @@ description: Component assigned to a ForumTopic, similar to Message.
 
 | Property   | Description                                                                                                                                                                                                                         | Type                                         |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| \_client   | Client                                                                                                                                                                                                                              | [Client](../../v.0.1.7/components/client.md) |
+| \_client   | Client                                                                                                                                                                                                                              | [Client](client.md) |
 | id         | The ID of the forum topic comment                                                                                                                                                                                                   | Number                                       |
 | content    | The content of the forum topic comment                                                                                                                                                                                              | String                                       |
 | createdAt  | The ISO 8601 timestamp that the forum topic comment was created at                                                                                                                                                                  | String                                       |
@@ -27,7 +27,7 @@ new ForumTopicComment(rawData, client, options?)
 | Properties          | Description                                               | Type                                         | Required? |
 | ------------------- | --------------------------------------------------------- | -------------------------------------------- | --------- |
 | rawData             | raw data received from ws and converted to JSON           | Object                                       | true      |
-| client              | Client                                                    | [Client](../../v.0.1.7/components/client.md) | true      |
+| client              | Client                                                    | [Client](client.md) | true      |
 | options?            | additional information we can give to a ForumTopicComment | Object                                       | false     |
 | options?.guildID?   | id of the comment's server, not provided by Guilded       | String \| null                               | false     |
 | options?.channelID? | id of the comment's channel, not provided by Guilded      | String \| null                               | false     |

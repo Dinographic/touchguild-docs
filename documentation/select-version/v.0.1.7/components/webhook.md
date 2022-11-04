@@ -4,7 +4,7 @@
 
 | Property    | Description                                            | Type                                         |
 | ----------- | ------------------------------------------------------ | -------------------------------------------- |
-| \_client    | Client                                                 | [Client](../../v.0.1.7/components/client.md) |
+| \_client    | Client                                                 | [Client](client.md) |
 | id          | ID of the webhook                                      | String                                       |
 | guildID     | ID of the guild the webhook got sent on.               | String                                       |
 | channelID   | ID of the channel the webhook got sent on.             | String                                       |
@@ -25,7 +25,7 @@ new Webhook(rawData, client)
 | Properties | Description                                     | Type                                         | Required? |
 | ---------- | ----------------------------------------------- | -------------------------------------------- | --------- |
 | rawData    | raw data received from ws and converted to JSON | Object                                       | true      |
-| client     | Client                                          | [Client](../../v.0.1.7/components/client.md) | true      |
+| client     | Client                                          | [Client](client.md) | true      |
 
 {% hint style="danger" %}
 Do not use this constructor unless you know what you're doing. This constructor is used to return you rawdata into component.
@@ -43,7 +43,7 @@ Edit the webhook.
 | options.name       | New webhook's name.              | String | true      |
 | options.channelID? | Move webhook to another channel. | String | false     |
 
-> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Webhook</mark>](../../v.0.1.6/components/webhook.md)<mark style="color:purple;">></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">Webhook</mark>](webhook.md)<mark style="color:purple;">></mark>
 
 ### delete()
 

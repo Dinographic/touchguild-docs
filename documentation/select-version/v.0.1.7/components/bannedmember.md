@@ -17,7 +17,7 @@ description: BannedMember is a component that extends the User component.
 | user.id       | Banned member id                            | String                                     |
 | user.type     | Banned member type                          | String                                     |
 | user.username | Banned member username                      | String                                     |
-| guild         | Guild/server component                      | [Guild](../../v.0.1.6/components/guild.md) |
+| guild         | Guild/server component                      | [Guild](guild.md) |
 
 ## Constructor
 
@@ -29,7 +29,7 @@ new BannedMember(guildID, rawData, client)
 | ---------- | ----------------------------------------------- | -------------------------------------------- | --------- |
 | guildID    | raw data's guild id                             | String                                       | true      |
 | rawData    | raw data received from ws and converted to JSON | Object                                       | true      |
-| client     | Client                                          | [Client](../../v.0.1.6/components/client.md) | true      |
+| client     | Client                                          | [Client](client.md) | true      |
 
 {% hint style="danger" %}
 Do not use this constructor unless you know what you're doing. This constructor is used to return you rawdata into component.

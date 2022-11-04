@@ -9,7 +9,7 @@ description: Calendar Event is a specific event from a calendar channel, so obvi
 | Property                | Description                                         | Type                                                                                            |
 | ----------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | data                    | raw data                                            | Object                                                                                          |
-| client                  | client                                              | [Client](../../v.0.1.6/components/client.md)                                                    |
+| client                  | client                                              | [Client](client.md)                                                    |
 | id                      | event id                                            | String                                                                                          |
 | guildID                 | guild id                                            | String                                                                                          |
 | channelID               | id of the channel                                   | String                                                                                          |
@@ -28,7 +28,7 @@ description: Calendar Event is a specific event from a calendar channel, so obvi
 | cancelation             | cancelation info (if canceled)                      | Object\|null                                                                                    |
 | cancelation.description | cancelation description                             | String                                                                                          |
 | cancelation.createdBy   | id of the member who canceled the event.            | String                                                                                          |
-| member                  | Member that created the event.                      | [Member](../../v.0.1.6/components/member.md)                                                    |
+| member                  | Member that created the event.                      | [Member](member.md)                                                    |
 | createdAt               | string representation of the \_createdAt timestamp. | Date                                                                                            |
 
 ## Constructor
@@ -40,7 +40,7 @@ new CalendarEvent(rawData, client)
 | Properties | Description                                     | Type                                         | Required? |
 | ---------- | ----------------------------------------------- | -------------------------------------------- | --------- |
 | rawData    | raw data received from ws and converted to JSON | Object                                       | true      |
-| client     | Client                                          | [Client](../../v.0.1.6/components/client.md) | true      |
+| client     | Client                                          | [Client](client.md) | true      |
 
 {% hint style="danger" %}
 Do not use this constructor unless you know what you're doing. This constructor is used to return you rawdata into component.
@@ -65,7 +65,7 @@ Edit the calendar event.
 | options.duration?    | new event's duration      | Number  | false     |
 | options.isPrivate?   | new event's private param | Boolean | false     |
 
-> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEvent</mark>](../../v.0.1.6/components/calendarevent.md)<mark style="color:purple;">></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEvent</mark>](calendarevent.md)<mark style="color:purple;">></mark>
 
 ### delete()
 

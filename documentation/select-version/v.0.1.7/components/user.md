@@ -10,7 +10,7 @@ description: >-
 
 | Property    | Description                                         | Type                                         |
 | ----------- | --------------------------------------------------- | -------------------------------------------- |
-| \_client    | Client                                              | [Client](../../v.0.1.7/components/client.md) |
+| \_client    | Client                                              | [Client](client.md) |
 | id          | User id                                             | String                                       |
 | type        | Type of user, bot or user                           | String                                       |
 | username    | User's username                                     | String                                       |
@@ -29,7 +29,7 @@ new User(rawData, client)
 | Properties | Description                                     | Type                                         | Required? |
 | ---------- | ----------------------------------------------- | -------------------------------------------- | --------- |
 | rawData    | raw data received from ws and converted to JSON | Object                                       | true      |
-| client     | Client                                          | [Client](../../v.0.1.7/components/client.md) | true      |
+| client     | Client                                          | [Client](client.md) | true      |
 
 {% hint style="danger" %}
 Do not use this constructor unless you know what you're doing. This constructor is used to return you rawdata into component.

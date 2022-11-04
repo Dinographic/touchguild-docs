@@ -5,7 +5,7 @@
 | Property    | Description                                                                     | Type                                         |
 | ----------- | ------------------------------------------------------------------------------- | -------------------------------------------- |
 | data        | raw data                                                                        | Object                                       |
-| client      | Client                                                                          | [Client](../../v.0.1.6/components/client.md) |
+| client      | Client                                                                          | [Client](client.md) |
 | id          | Calendar Event RSVP ID                                                          | Number                                       |
 | guildID     | Guild/server ID                                                                 | String                                       |
 | channelID   | Calendar channel id                                                             | String                                       |
@@ -14,7 +14,7 @@
 | \_createdAt | Timestamp (unix epoch time) of the rsvp's creation.                             | Number\|null                                 |
 | createdBy   | ID of the member that created the rsvp.                                         | String                                       |
 | updatedBy   | ID of the member that updated the rsvp (if updated)                             | String                                       |
-| member      | Member that created the rsvp.                                                   | [Member](../../v.0.1.6/components/member.md) |
+| member      | Member that created the rsvp.                                                   | [Member](member.md) |
 | createdAt   | string representation of the \_createdAt timestamp                              | Date\|null                                   |
 
 ## Constructor
@@ -26,7 +26,7 @@ new CalendarEventRSVP(rawData, client)
 | Properties | Description                                     | Type                                         | Required? |
 | ---------- | ----------------------------------------------- | -------------------------------------------- | --------- |
 | rawData    | raw data received from ws and converted to JSON | Object                                       | true      |
-| client     | Client                                          | [Client](../../v.0.1.6/components/client.md) | true      |
+| client     | Client                                          | [Client](client.md) | true      |
 
 {% hint style="danger" %}
 Do not use this constructor unless you know what you're doing. This constructor is used to return you rawdata into component.
@@ -43,7 +43,7 @@ Edit the calendar rsvp.
 | options        | Edit options                                                             | Object | true      |
 | options.status | RSVP status (going, maybe, declined, invited, waitlisted, not responded) | String | true      |
 
-> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEventRSVP</mark>](../../v.0.1.6/components/calendareventrsvp.md)<mark style="color:purple;">></mark>
+> Returns: <mark style="color:purple;">Promise<</mark>[<mark style="color:purple;">CalendarEventRSVP</mark>](calendareventrsvp.md)<mark style="color:purple;">></mark>
 
 ### delete()
 
