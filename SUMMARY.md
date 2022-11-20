@@ -3,9 +3,9 @@
 ## 😄 Get started
 
 * [🌟 Get started](README.md)
-* [TouchGuild's Guide](https://guide.touchguild.dinographicpixels.com/)
+* [TouchGuild's Guide](https://guide.touchguild.com)
 
-## Documentation
+## Older Documentation <a href="#documentation" id="documentation"></a>
 
 * [Select version](documentation/select-version/README.md)
   * [v.0.1.7](documentation/select-version/v.0.1.7/README.md)
@@ -15,7 +15,7 @@
       * [☕ Channel](documentation/select-version/v.0.1.7/components/channel.md)
       * [💬 Message](documentation/select-version/v.0.1.7/components/message.md)
       * [🏛 Guild](documentation/select-version/v.0.1.7/components/guild.md)
-      * [🙇♂ User](documentation/select-version/v.0.1.7/components/user.md)
+      * [🙇♂ 🙇♂ User](documentation/select-version/v.0.1.7/components/user.md)
       * [👾 UserClient](documentation/select-version/v.0.1.7/components/user-1.md)
       * [🫂 Member](documentation/select-version/v.0.1.7/components/member.md)
       * [☠ BannedMember](documentation/select-version/v.0.1.7/components/bannedmember.md)
@@ -39,7 +39,7 @@
       * [☕ Channel](documentation/select-version/v.0.1.6/components/channel.md)
       * [💬 Message](documentation/select-version/v.0.1.6/components/message.md)
       * [🏛 Guild](documentation/select-version/v.0.1.6/components/guild.md)
-      * [🙇♂ User](documentation/select-version/v.0.1.6/components/user.md)
+      * [🙇♂ 🙇♂ User](documentation/select-version/v.0.1.6/components/user.md)
       * [🫂 Member](documentation/select-version/v.0.1.6/components/member.md)
       * [☠ BannedMember](documentation/select-version/v.0.1.6/components/bannedmember.md)
       * [🗓 CalendarEvent](documentation/select-version/v.0.1.6/components/calendarevent.md)
@@ -60,13 +60,13 @@
       * [socialLinkTypes](documentation/select-version/v.0.1.6/types/sociallinktypes.md)
       * [UserClientTypes](documentation/select-version/v.0.1.6/types/userclienttypes.md)
 
-## Nightly
-
-* [🎯 Features](nightly/features.md)
-* [Examples](nightly/examples/README.md)
-  * [Snipe & editsnipe](nightly/examples/snipe-and-editsnipe.md)
-
 ## Misc
 
 * [😅 FAQ](misc/faq.md)
 * [👀 Our vision](misc/our-vision.md)
+
+## Deprecated Nightly <a href="#nightly" id="nightly"></a>
+
+* [🎯 Features](nightly/features.md)
+* [Examples](nightly/examples/README.md)
+  * [Snipe & editsnipe](nightly/examples/snipe-and-editsnipe.md)
