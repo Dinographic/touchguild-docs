@@ -1,5 +1,5 @@
 ---
-description: This page is deprecated.
+description: TouchGuild is a NodeJS library for interfacing with Guilded.
 ---
 
 # 🌟 Get started
