@@ -4,6 +4,8 @@ description: Frequently asked questions.
 
 # 😅 FAQ
 
+## This page is an archive and features legacy versions of TouchGuild. Any information coming from it is outdated.
+
 <details>
 
 <summary>Why is TouchGuild in early access?</summary>
