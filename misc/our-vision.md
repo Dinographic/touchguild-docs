@@ -6,8 +6,6 @@ description: Our vision, perspective about the TouchGuild library.
 
 ## This page is an archive and features legacy versions of TouchGuild. Any information coming from it is outdated.
 
-##
-
 ## A library built by you, for you.
 
 ### Pull requests

@@ -4,6 +4,8 @@ description: This page is deprecated.
 
 # 🌟 Get started
 
+
+
 <figure><img src=".gitbook/assets/touchguild-cradius.png" alt=""><figcaption></figcaption></figure>
 
 ## This page is an archive and features legacy versions of TouchGuild
@@ -113,7 +115,7 @@ You can check [Nightly Features here.](broken-reference)
 #### Repository & NPM
 
 * [NPM Package](https://www.npmjs.com/package/touchguild)
-* [GitHub](https://github.com/DinographicPixels/TouchGuild)
+* [GitHub](https://github.com/Dinographic/TouchGuild)
 
 #### Guide & documentation
 

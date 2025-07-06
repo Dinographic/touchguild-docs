@@ -4,6 +4,8 @@ description: Get last deleted/edited message content.
 
 # Snipe & editsnipe
 
+## This page is an archive and features legacy versions of TouchGuild. Any information coming from it is outdated.
+
 ### Usage:
 
 * !snipe (snipes the last deleted message of the current channel)
