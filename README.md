@@ -1,10 +1,12 @@
 ---
-description: TouchGuild is a NodeJS library for interfacing with Guilded.
+description: This page is deprecated.
 ---
 
 # 🌟 Get started
 
 <figure><img src=".gitbook/assets/touchguild-cradius.png" alt=""><figcaption></figcaption></figure>
+
+## This page is an archive and features legacy versions of TouchGuild
 
 ## Installation
 
